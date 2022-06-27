@@ -150,25 +150,42 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document7]
+DocumentPath=Connectors.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=VQGWTXJI
+
 [Parameter1]
-Name=ProjectRevision
-Value=Rev01
+Name=Author
+Value=A. Musterfrau
 
 [Parameter2]
-Name=ProjectNameCustom
-Value=UZ_D_Inverter_Template
+Name=AuthorParam
+Value=A. Musterfrau
 
 [Parameter3]
 Name=Date
 Value=11/2019
 
 [Parameter4]
-Name=AuthorParam
-Value=A. Musterfrau
+Name=ProjectNameCustom
+Value=UZ_D_Inverter_Template
 
 [Parameter5]
-Name=Author
-Value=A. Musterfrau
+Name=ProjectRevision
+Value=Rev01
 
 [Configuration1]
 Name=Sources
