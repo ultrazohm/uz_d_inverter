@@ -49,23 +49,6 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=UZ_D_Inverter_Template.PcbDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=EUTONNES
-
-[Document2]
 DocumentPath=OutputJob.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -82,7 +65,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document3]
+[Document2]
 DocumentPath=UZ_D_Inverter.Annotation
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -98,6 +81,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
+
+[Document3]
+DocumentPath=UZ_D_Inverter.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=EUTONNES
 
 [Document4]
 DocumentPath=TopSheet.SchDoc
@@ -167,25 +167,59 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VQGWTXJI
 
+[Document8]
+DocumentPath=Reference.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=MRILPPRK
+
+[Document9]
+DocumentPath=Halfbridge_A.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=QKFXUWCT
+
 [Parameter1]
-Name=Author
-Value=A. Musterfrau
+Name=ProjectRevision
+Value=Rev01
 
 [Parameter2]
-Name=AuthorParam
-Value=A. Musterfrau
-
-[Parameter3]
-Name=Date
-Value=11/2019
-
-[Parameter4]
 Name=ProjectNameCustom
 Value=UZ_D_Inverter_Template
 
+[Parameter3]
+Name=Date
+Value=07/2022
+
+[Parameter4]
+Name=AuthorParam
+Value=D. Hufnagel
+
 [Parameter5]
-Name=ProjectRevision
-Value=Rev01
+Name=Author
+Value=D. Hufnagel
 
 [Configuration1]
 Name=Sources
