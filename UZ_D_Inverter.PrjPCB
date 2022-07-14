@@ -185,7 +185,7 @@ GenerateClassCluster=0
 DocumentUniqueId=MRILPPRK
 
 [Document9]
-DocumentPath=Halfbridge_A.SchDoc
+DocumentPath=Phase_Measurements.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -201,25 +201,59 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QKFXUWCT
 
+[Document10]
+DocumentPath=Halfbridges.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ZHVMMOEZ
+
+[Document11]
+DocumentPath=DC-link.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=GXXXZSFL
+
 [Parameter1]
-Name=ProjectRevision
-Value=Rev01
+Name=Author
+Value=D. Hufnagel
 
 [Parameter2]
-Name=ProjectNameCustom
-Value=UZ_D_Inverter_Template
+Name=AuthorParam
+Value=D. Hufnagel
 
 [Parameter3]
 Name=Date
 Value=07/2022
 
 [Parameter4]
-Name=AuthorParam
-Value=D. Hufnagel
+Name=ProjectNameCustom
+Value=UZ_D_Inverter_Template
 
 [Parameter5]
-Name=Author
-Value=D. Hufnagel
+Name=ProjectRevision
+Value=Rev01
 
 [Configuration1]
 Name=Sources
