@@ -1,7 +1,7 @@
 ﻿[Design]
 Version=1.0
 HierarchyMode=0
-ChannelRoomNamingStyle=1
+ChannelRoomNamingStyle=0
 ReleasesFolder=
 ChannelDesignatorFormatString=$Component$ChannelAlpha
 ChannelRoomLevelSeperator=_
@@ -219,24 +219,24 @@ GenerateClassCluster=0
 DocumentUniqueId=GXXXZSFL
 
 [Parameter1]
-Name=Author
-Value=D. Hufnagel
+Name=ProjectRevision
+Value=Rev01
 
 [Parameter2]
-Name=AuthorParam
-Value=D. Hufnagel
+Name=ProjectNameCustom
+Value=UZ_D_Inverter_Template
 
 [Parameter3]
 Name=Date
 Value=07/2022
 
 [Parameter4]
-Name=ProjectNameCustom
-Value=UZ_D_Inverter_Template
+Name=AuthorParam
+Value=D. Hufnagel
 
 [Parameter5]
-Name=ProjectRevision
-Value=Rev01
+Name=Author
+Value=D. Hufnagel
 
 [Configuration1]
 Name=Sources
