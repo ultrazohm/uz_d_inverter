@@ -43,6 +43,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
+CurrentVariant=Inverter_V1
 
 [Preferences]
 PrefsVaultGUID=
@@ -218,25 +219,107 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GXXXZSFL
 
+[ProjectVariant1]
+UniqueID=BEA43099-09AD-4999-B90C-9EDD39F1A21C
+Description=Inverter_V1
+AllowFabrication=0
+ParameterCount=0
+VariationCount=2
+Variation1=Designator=R3|UniqueId=\LGUSEKVC\JALPUBCU|Kind=1|AlternatePart= 
+Variation2=Designator=R2|UniqueId=\LGUSEKVC\ODXPHPQE|Kind=1|AlternatePart= 
+ParamVariationCount=0
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for UZ_D_Inverter\BOM\BOM_UZ_D_Inverter_Rev01.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for UZ_D_Inverter\NC Drill\UZ_D_Inverter.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for UZ_D_Inverter\Gerber\UZ_D_Inverter.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for UZ_D_Inverter\Gerber\UZ_D_Inverter.G1
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for UZ_D_Inverter\Gerber\UZ_D_Inverter.G2
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for UZ_D_Inverter\Gerber\UZ_D_Inverter.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for UZ_D_Inverter\Gerber\UZ_D_Inverter.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for UZ_D_Inverter\Gerber\UZ_D_Inverter.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for UZ_D_Inverter\Gerber\UZ_D_Inverter.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for UZ_D_Inverter\Gerber\UZ_D_Inverter.GM1
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for UZ_D_Inverter\Gerber\UZ_D_Inverter.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for UZ_D_Inverter\Gerber\UZ_D_Inverter.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for UZ_D_Inverter\Gerber\UZ_D_Inverter.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for UZ_D_Inverter\Gerber\UZ_D_Inverter.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for UZ_D_Inverter\NC Drill\UZ_D_Inverter.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for UZ_D_Inverter\Gerber\UZ_D_Inverter.REP
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for UZ_D_Inverter\Gerber\UZ_D_Inverter.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for UZ_D_Inverter\NC Drill\UZ_D_Inverter.TXT
+DItemRevisionGUID=
+
 [Parameter1]
-Name=ProjectRevision
-Value=Rev01
+Name=Author
+Value=D. Hufnagel
 
 [Parameter2]
-Name=ProjectNameCustom
-Value=UZ_D_Inverter_Template
+Name=AuthorParam
+Value=D. Hufnagel
 
 [Parameter3]
 Name=Date
 Value=07/2022
 
 [Parameter4]
-Name=AuthorParam
-Value=D. Hufnagel
+Name=ProjectNameCustom
+Value=UZ_D_Inverter_Template
 
 [Parameter5]
-Name=Author
-Value=D. Hufnagel
+Name=ProjectRevision
+Value=Rev01
 
 [Configuration1]
 Name=Sources
