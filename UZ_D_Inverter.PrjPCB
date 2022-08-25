@@ -230,24 +230,24 @@ Variation2=Designator=R2|UniqueId=\LGUSEKVC\ODXPHPQE|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [Parameter1]
-Name=ProjectRevision
-Value=Rev01
+Name=Author
+Value=D. Hufnagel
 
 [Parameter2]
-Name=ProjectNameCustom
-Value=UZ_D_Inverter_Template
+Name=AuthorParam
+Value=D. Hufnagel
 
 [Parameter3]
 Name=Date
 Value=07/2022
 
 [Parameter4]
-Name=AuthorParam
-Value=D. Hufnagel
+Name=ProjectNameCustom
+Value=UZ_D_Inverter_Template
 
 [Parameter5]
-Name=Author
-Value=D. Hufnagel
+Name=ProjectRevision
+Value=Rev01
 
 [Configuration1]
 Name=Sources
