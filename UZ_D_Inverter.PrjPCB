@@ -229,6 +229,10 @@ Variation1=Designator=R3|UniqueId=\LGUSEKVC\JALPUBCU|Kind=1|AlternatePart=
 Variation2=Designator=R2|UniqueId=\LGUSEKVC\ODXPHPQE|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for UZ_D_Inverter\Design Rule Check - UZ_D_Inverter.html
+DItemRevisionGUID=
+
 [Parameter1]
 Name=Author
 Value=D. Hufnagel
@@ -877,6 +881,11 @@ OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
+OutputType12=Web ReviewOutputName
+OutputName12=Web Review Data
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
