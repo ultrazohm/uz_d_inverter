@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc
 Date     : 14.10.2022
-Time     : 14:51:20
+Time     : 15:09:31
 
 Processing Rule : Clearance Constraint (Gap=0.1mm) (InNetClass('DifferentialSignals')),(All)
 Rule Violations :0
