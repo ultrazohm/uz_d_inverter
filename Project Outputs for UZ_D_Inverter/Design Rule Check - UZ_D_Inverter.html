@@ -1,0 +1,551 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 9em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD21\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">14.10.2022</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">14:51:20</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:03</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc" class="file"><acronym title="E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc">E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">45</td></tr>
+</table>
+</td>
+</table><a name="IDM5HNPQVW1D1COYPKKXDV4LOTKOF2G0V2JC44QOP4XRU02YUAWDLE"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID3NZW3MNW2ACDDYXYFUPZKVOUNE15MWNINUWD1LE1NUI30E4RSMI">Clearance Constraint (Gap=0.1mm) (InNetClass('DifferentialSignals')),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDOROBZ2UIPPKOHVI4YGVG0O2Y2CSQQVDDNBQX1GCUGEYUKYFEMJFD">Clearance Constraint (Gap=0.1mm) (All),(All)</a></td>
+<td class="column2">7</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDKHJC1CQUYU0QLKRX4WAWTCUF1J3XMDMNPZPPFJK0XLGTZFA2DHIM">Clearance Constraint (Gap=0.1mm) (InNetClass('Power')),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDWFI1IUKSFARXF0YZNYOVW02C5MNYGRSR5SVOL0HCWRSTOM0Z4FSF">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">2</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID2HI1MRVR3WSNHO54R3CZXOBJTPUJWKFXBMSSS5G05WSM51LAHRRJ">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDHEEVJ4C51XNFBETGMYEFCNZERNSNXRIWAEWQZHMSGQDC2H4INXIC">Un-Routed Net Constraint ( (InNetClass('15V_SingleEnded') or InNetClass('3V3_SingleEnded') or InNetClass('5V_SingleEnded') or InNetClass('DifferentialSignals')) )</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDX5AP02KHL1UUGRLKIS1AODM1ENUKW5QQ3NNKHOBAVP4QSCOAYPI">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDPPMLAZ5PUNQ0NZAHQUEQZJZJQE0XROV0A4PHG0D0G4ALZPRJXMHH">Width Constraint (Min=0.2mm) (Max=10mm) (Preferred=0.3mm) (InNetClass('Power'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDYHDTNQP2ETFVOMTPT3S4UUT3KDN0RBBEWFH4BRCGXOARX3Q5KEWP">Width Constraint (Min=0.1mm) (Max=10mm) (Preferred=0.3mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDJJZ22J0OJZFJP32NQUWZD5ZGGKUJIDMTFU3VHDEQ4HOY23RRBEM">Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDC2H2YACD2HUDFJSU0PHWCBJETIYMUNMX0XSMVXHCOU0SJ5U2AE3F">Hole Size Constraint (Min=0.025mm) (Max=4mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDHAODKAM1WMIVKIJ13XCDEGWWK3ZWNATJQMQ4PHUVS0HCJTMK4N">Hole To Hole Clearance (Gap=0.254mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDIZTO4FRCBW4FG4I4S0WJM1OFPLQPEKMTDDWABGK0XJHRZSDQBC0F">Net Antennae (Tolerance=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID4DMAXA4ODWTLMRLPNECPEOLWTNGFC4OVZY51VZMIQ2ML1FJJDECN">Board Clearance Constraint (Gap=0mm) (All)</a></td>
+<td class="column2">36</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDF3C0LUWUIYSPMR5P12UGMLKP2N5LZO2GK31LZOJIZGNYROZK432E">Room Temp_Meas1B (Bounding Region = (74.536mm, 92.687mm, 88.877mm, 102.717mm) (InComponent('R38A', 'R44A', 'R39A', 'C21A', 'IC8A', 'R40A', 'R41A', 'R42A', 'C22A'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDPJTWTHS13LYBDI32FNML5MRQYIOQPI0XWL3N2GCM4XDCH2Q5YKUP">Room Temp_Meas3T (Bounding Region = (74.733mm, 50.158mm, 88.933mm, 60.078mm) (InComponent('R30C', 'R43C', 'R29C', 'C18C', 'IC6C', 'R33C', 'R35C', 'R34C', 'C19C'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDNE0UD5OC41QYNBP1PDYULUWGRNPLBUICY4VFIQDM4FXJ2OLNEJ2I">Room Temp_Meas2T (Bounding Region = (74.503mm, 77.488mm, 88.703mm, 87.408mm) (InComponent('R30B', 'R43B', 'R29B', 'C18B', 'IC6B', 'R33B', 'R35B', 'R34B', 'C19B'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDTYTVAHFYMUBCUSKQDTZWYBV1HDCHDNIHXJOPHB04ZD23S3XST5H">Room Temp_Meas1T (Bounding Region = (74.441mm, 108.713mm, 88.641mm, 118.633mm) (InComponent('R30A', 'R43A', 'R29A', 'C18A', 'IC6A', 'R33A', 'R35A', 'R34A', 'C19A'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#ID4MV0QAH1QFLZBDYRMPOLOHCR5GXLAQYICRDSOSN033TUIW1AMNKF">Room Temp_Meas2B (Bounding Region = (74.456mm, 65.687mm, 88.797mm, 75.717mm) (InComponent('R38B', 'R44B', 'R39B', 'C21B', 'IC8B', 'R40B', 'R41B', 'R42B', 'C22B'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDFHYEJ2C1IC5OFUR4WFDDFADBKKKASEAWOZBPP2HOGX0GACMJKLCL">Room Temp_Meas3B (Bounding Region = (73.661mm, 36.237mm, 88.757mm, 46.267mm) (InComponent('R38C', 'R39C', 'C21C', 'IC8C', 'R40C', 'R41C', 'R42C', 'C22C'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDWKKDXKVZVYQ4JFSI5C1TU5CO4EIXFWT41RXC3RO4SLGS4EXIYQOJ">Room Current_Meas1 (Bounding Region = (88.843mm, 90.303mm, 104.913mm, 106.448mm) (InComponent('IC3A','R12A','R13A','R14A','R15A','R17A','R18A','R19A','R20A','C81A','C24A','C12A','C11A'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDJ0EFCLKFURINDPYLRBMDI5CLIII1NL23XJPJBUJB30KGJMPBBC">Room Halfbridge3 (Bounding Region = (58.631mm, 27.763mm, 145.801mm, 56.853mm) (InComponentClass('Halfbridge3'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDZ3JDASGMEHKAM2YHGPXKIPSQOH5X3CGM5QAKLVGE5WTBPEXZW5GM">Room Halfbridge1 (Bounding Region = (58.651mm, 81.783mm, 145.821mm, 116.383mm) (InComponentClass('Halfbridge1'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDHPSDLO00EM24FTHMAPCTIVYXHIB4ZGRU3JQA02E2HVT41L1AHFRI">Room Halfbridge2 (Bounding Region = (58.691mm, 53.423mm, 145.861mm, 85.993mm) (InComponentClass('Halfbridge2'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDXXLKXNERAJ1UDWVWMZMHGCBCCN05F1DZZ3D14POXWV4YGKPVI3DG">Room Voltage_Meas2 (Bounding Region = (56.631mm, 62.463mm, 78.311mm, 77.183mm) (InComponent('C15B', 'R24B', 'R26B', 'R21B', 'IC4B', 'R25B', 'R23B', 'C14B', 'C16B', 'R28B', 'R22B', 'R27B', 'C13B', 'C80B', 'C23B'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDONKP44HVOE1EJ4BZALB4OXALPN0LHW1G3V5HYTLDLZBAWZNPZCEI">Room Current_MeasDC (Bounding Region = (146.281mm, 89.753mm, 163.751mm, 103.323mm) (InComponent('R57', 'R58', 'R55', 'R56', 'R54', 'R53', 'R51', 'R52', 'C50', 'C51', 'C58', 'C60', 'IC10'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDHWOABYAJKH3KGUPSY03AJGXG2YHHZ1ULA5QPSMWFTXYEETE545O">Room Reference (Bounding Region = (43.261mm, 71.843mm, 57.661mm, 79.313mm) (InComponentClass('Reference'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDGSOIDWQYNT3EITQ4ZKTZB0ON1CI0EKE0XZHNG1COOTW0MWZCZ1VJ">Room Voltage_Meas1 (Bounding Region = (56.481mm, 94.943mm, 78.161mm, 109.663mm) (InComponent('C15A', 'R24A', 'R26A', 'R21A', 'IC4A', 'R25A', 'R23A', 'C14A', 'C16A', 'R28A', 'R22A', 'R27A', 'C13A', 'C80A', 'C23A'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDGQF5PMEIFNDLIJBLBA2EAR5OWGVDUVAZS530WEOEJBKIQRLUAPTB">Room Voltage_MeasDC (Bounding Region = (88.999mm, 106.083mm, 113.451mm, 124.436mm) (InComponent('R60', 'R61', 'C53', 'C54', 'R63', 'R64', 'IC12', 'R65', 'R66', 'C55', 'C56', 'C59', 'C57', 'R68', 'R67'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDFEQKAEMLW3LZH1QMUK4YDDVPYIAFN5ETPZ32HHOEWVWOLEQLXG4N">Room Current_Meas3 (Bounding Region = (79.091mm, 29.903mm, 95.161mm, 44.933mm) (InComponent('IC3C','R12C','R13C','R14C','R15C','R17C','R18C','R19C','R20C','C81C','C24C','C12C','C11C'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDMU220KT3RL4QBRTA4BTFRFUE1K3M5RCGJJ0GMHE1HUDK3WACCUUD">Room Voltage_Meas3 (Bounding Region = (56.541mm, 30.333mm, 78.221mm, 45.053mm) (InComponent('C15C', 'R24C', 'R26C', 'R21C', 'IC4C', 'R25C', 'R23C', 'C14C', 'C16C', 'R28C', 'R22C', 'R27C', 'C13C', 'C80C', 'C23C'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDZ0H0Z44OB4U0LCF53EN2OHYC4H0DTLPTY4CTEGPDNIIDF1MZ4PSF">Room Current_Meas2 (Bounding Region = (88.781mm, 57.983mm, 104.851mm, 73.723mm) (InComponent('IC3B','R12B','R13B','R14B','R15B','R17B','R18B','R19B','R20B','C81B','C24B','C12B','C11B'))</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDHGRKU4KWJUDSF20CLDRGLG3SZDZMA0B2YYWLJGBX5ZZBB0TAAREF">Height Constraint (Min=0mm) (Max=50mm) (Prefered=12.7mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">45</td>
+</tr>
+</table><br><a name="IDOROBZ2UIPPKOHVI4YGVG0O2Y2CSQQVDDNBQX1GCUGEYUKYFEMJFD"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Clearance Constraint (Gap=0.1mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7276.448mil|Location2.X=7283.497mil|Location1.Y=4224.448mil|Location2.Y=4231.393mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7276.448mil|Location2.X=7283.497mil|Location1.Y=4224.448mil|Location2.Y=4231.393mil|Absolute=True">Clearance Constraint: (0.091mm &lt; 0.1mm) Between Pad J1-M1(137.64mm,82.3mm) on Multi-Layer And Region (0 hole(s)) Top Copper </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7236.804mil|Location2.X=7240.428mil|Location1.Y=4775.856mil|Location2.Y=4779.481mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7236.804mil|Location2.X=7240.428mil|Location1.Y=4775.856mil|Location2.Y=4779.481mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.1mm) Between Pad J1-M2(137.64mm,95mm) on Multi-Layer And Region (0 hole(s)) Bottom Copper </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7276.449mil|Location2.X=7283.56mil|Location1.Y=4824.023mil|Location2.Y=4830.89mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7276.449mil|Location2.X=7283.56mil|Location1.Y=4824.023mil|Location2.Y=4830.89mil|Absolute=True">Clearance Constraint: (0.091mm &lt; 0.1mm) Between Pad J1-M2(137.64mm,95mm) on Multi-Layer And Region (0 hole(s)) Top Copper </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7276.449mil|Location2.X=7283.559mil|Location1.Y=4640.953mil|Location2.Y=4647.819mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7276.449mil|Location2.X=7283.559mil|Location1.Y=4640.953mil|Location2.Y=4647.819mil|Absolute=True">Clearance Constraint: (0.091mm &lt; 0.1mm) Between Pad J2-M1(137.64mm,90.35mm) on Multi-Layer And Region (0 hole(s)) Bottom Copper </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7276.449mil|Location2.X=7283.497mil|Location1.Y=4041.378mil|Location2.Y=4048.322mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7276.449mil|Location2.X=7283.497mil|Location1.Y=4041.378mil|Location2.Y=4048.322mil|Absolute=True">Clearance Constraint: (0.091mm &lt; 0.1mm) Between Pad J2-M2(137.64mm,77.65mm) on Multi-Layer And Region (0 hole(s)) Bottom Copper </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7236.804mil|Location2.X=7240.428mil|Location1.Y=4092.786mil|Location2.Y=4096.411mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7236.804mil|Location2.X=7240.428mil|Location1.Y=4092.786mil|Location2.Y=4096.411mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.1mm) Between Pad J2-M2(137.64mm,77.65mm) on Multi-Layer And Region (0 hole(s)) Top Copper </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4972.723mil|Location2.X=4989.721mil|Location1.Y=2450.238mil|Location2.Y=2474.864mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4972.723mil|Location2.X=4989.721mil|Location1.Y=2450.238mil|Location2.Y=2474.864mil|Absolute=True">Clearance Constraint: (0.278mm &lt; 0.4mm) Between Pad RG3B-2(79.57mm,35.45mm) on Top Copper And Via (80.91mm,36.49mm) from Top Copper to Bottom Copper </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDWFI1IUKSFARXF0YZNYOVW02C5MNYGRSR5SVOL0HCWRSTOM0Z4FSF"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Short-Circuit Constraint (Allowed=No) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7189.894mil|Location2.X=7287.338mil|Location1.Y=4675.945mil|Location2.Y=4773.388mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7189.894mil|Location2.X=7287.338mil|Location1.Y=4675.945mil|Location2.Y=4773.388mil|Absolute=True">Short-Circuit Constraint: Between Pad J1-M2(137.64mm,95mm) on Multi-Layer And Region (0 hole(s)) Bottom Copper Location : [X = 183.861mm][Y = 120.007mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7189.895mil|Location2.X=7287.337mil|Location1.Y=4098.88mil|Location2.Y=4196.322mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7189.895mil|Location2.X=7287.337mil|Location1.Y=4098.88mil|Location2.Y=4196.322mil|Absolute=True">Short-Circuit Constraint: Between Pad J2-M2(137.64mm,77.65mm) on Multi-Layer And Region (0 hole(s)) Top Copper Location : [X = 183.861mm][Y = 105.349mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="ID4DMAXA4ODWTLMRLPNECPEOLWTNGFC4OVZY51VZMIQ2ML1FJJDECN"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Board Clearance Constraint (Gap=0mm) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7373.754mil|Location2.X=7381.42mil|Location1.Y=1604.939mil|Location2.Y=1612.605mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7373.754mil|Location2.X=7381.42mil|Location1.Y=1604.939mil|Location2.Y=1612.605mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.254mm) Between Board Edge And Track (122.14mm,14.51mm)(141.145mm,14.51mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7373.754mil|Location2.X=7381.42mil|Location1.Y=1695.489mil|Location2.Y=1703.155mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7373.754mil|Location2.X=7381.42mil|Location1.Y=1695.489mil|Location2.Y=1703.155mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.254mm) Between Board Edge And Track (122.14mm,16.81mm)(141.145mm,16.81mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7372.853mil|Location2.X=7380.52mil|Location1.Y=1132.497mil|Location2.Y=1140.163mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7372.853mil|Location2.X=7380.52mil|Location1.Y=1132.497mil|Location2.Y=1140.163mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.254mm) Between Board Edge And Track (122.14mm,2.51mm)(141.145mm,2.51mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7373.754mil|Location2.X=7381.42mil|Location1.Y=2167.931mil|Location2.Y=2175.597mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7373.754mil|Location2.X=7381.42mil|Location1.Y=2167.931mil|Location2.Y=2175.597mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.254mm) Between Board Edge And Track (122.14mm,28.81mm)(141.145mm,28.81mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7373.754mil|Location2.X=7381.42mil|Location1.Y=2258.481mil|Location2.Y=2266.147mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7373.754mil|Location2.X=7381.42mil|Location1.Y=2258.481mil|Location2.Y=2266.147mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.254mm) Between Board Edge And Track (122.14mm,31.11mm)(141.145mm,31.11mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7373.754mil|Location2.X=7381.42mil|Location1.Y=2730.923mil|Location2.Y=2738.589mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7373.754mil|Location2.X=7381.42mil|Location1.Y=2730.923mil|Location2.Y=2738.589mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.254mm) Between Board Edge And Track (122.14mm,43.11mm)(141.145mm,43.11mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7373.754mil|Location2.X=7381.42mil|Location1.Y=2821.475mil|Location2.Y=2829.141mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7373.754mil|Location2.X=7381.42mil|Location1.Y=2821.475mil|Location2.Y=2829.141mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.254mm) Between Board Edge And Track (122.14mm,45.41mm)(141.145mm,45.41mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7373.754mil|Location2.X=7381.42mil|Location1.Y=3293.915mil|Location2.Y=3301.581mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7373.754mil|Location2.X=7381.42mil|Location1.Y=3293.915mil|Location2.Y=3301.581mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.254mm) Between Board Edge And Track (122.14mm,57.41mm)(141.145mm,57.41mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7373.754mil|Location2.X=7381.42mil|Location1.Y=3384.467mil|Location2.Y=3392.133mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7373.754mil|Location2.X=7381.42mil|Location1.Y=3384.467mil|Location2.Y=3392.133mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.254mm) Between Board Edge And Track (122.14mm,59.71mm)(141.145mm,59.71mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7373.754mil|Location2.X=7381.42mil|Location1.Y=3856.907mil|Location2.Y=3864.573mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7373.754mil|Location2.X=7381.42mil|Location1.Y=3856.907mil|Location2.Y=3864.573mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.254mm) Between Board Edge And Track (122.14mm,71.71mm)(141.145mm,71.71mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7412.13mil|Location2.X=7419.797mil|Location1.Y=4017.931mil|Location2.Y=4025.598mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7412.13mil|Location2.X=7419.797mil|Location1.Y=4017.931mil|Location2.Y=4025.598mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.254mm) Between Board Edge And Track (139.89mm,75.8mm)(143.04mm,75.8mm) on Bottom Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7412.13mil|Location2.X=7419.797mil|Location1.Y=4201.001mil|Location2.Y=4208.668mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7412.13mil|Location2.X=7419.797mil|Location1.Y=4201.001mil|Location2.Y=4208.668mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.254mm) Between Board Edge And Track (139.89mm,80.45mm)(143.04mm,80.45mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7412.13mil|Location2.X=7419.797mil|Location1.Y=4663.599mil|Location2.Y=4671.266mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7412.13mil|Location2.X=7419.797mil|Location1.Y=4663.599mil|Location2.Y=4671.266mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.254mm) Between Board Edge And Track (139.89mm,92.2mm)(143.04mm,92.2mm) on Bottom Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7412.13mil|Location2.X=7419.797mil|Location1.Y=4846.671mil|Location2.Y=4854.338mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7412.13mil|Location2.X=7419.797mil|Location1.Y=4846.671mil|Location2.Y=4854.338mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.254mm) Between Board Edge And Track (139.89mm,96.85mm)(143.04mm,96.85mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7373.754mil|Location2.X=7381.42mil|Location1.Y=1931.711mil|Location2.Y=1939.377mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7373.754mil|Location2.X=7381.42mil|Location1.Y=1931.711mil|Location2.Y=1939.377mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.254mm) Between Board Edge And Track (141.145mm,16.81mm)(141.145mm,28.81mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7372.938mil|Location2.X=7380.604mil|Location1.Y=1368.719mil|Location2.Y=1376.385mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7372.938mil|Location2.X=7380.604mil|Location1.Y=1368.719mil|Location2.Y=1376.385mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.254mm) Between Board Edge And Track (141.145mm,2.51mm)(141.145mm,14.51mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7373.754mil|Location2.X=7381.42mil|Location1.Y=2494.703mil|Location2.Y=2502.369mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7373.754mil|Location2.X=7381.42mil|Location1.Y=2494.703mil|Location2.Y=2502.369mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.254mm) Between Board Edge And Track (141.145mm,31.11mm)(141.145mm,43.11mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7373.754mil|Location2.X=7381.42mil|Location1.Y=3057.695mil|Location2.Y=3065.361mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7373.754mil|Location2.X=7381.42mil|Location1.Y=3057.695mil|Location2.Y=3065.361mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.254mm) Between Board Edge And Track (141.145mm,45.41mm)(141.145mm,57.41mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7373.754mil|Location2.X=7381.42mil|Location1.Y=3620.687mil|Location2.Y=3628.353mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7373.754mil|Location2.X=7381.42mil|Location1.Y=3620.687mil|Location2.Y=3628.353mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.254mm) Between Board Edge And Track (141.145mm,59.71mm)(141.145mm,71.71mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7649.806mil|Location2.X=7657.472mil|Location1.Y=1595.097mil|Location2.Y=1602.763mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7649.806mil|Location2.X=7657.472mil|Location1.Y=1595.097mil|Location2.Y=1602.763mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.254mm) Between Board Edge And Track (141.146mm,14.26mm)(155.168mm,14.26mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7649.816mil|Location2.X=7657.482mil|Location1.Y=1705.333mil|Location2.Y=1712.999mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7649.816mil|Location2.X=7657.482mil|Location1.Y=1705.333mil|Location2.Y=1712.999mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.254mm) Between Board Edge And Track (141.146mm,17.06mm)(155.169mm,17.06mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7649.581mil|Location2.X=7657.248mil|Location1.Y=1142.341mil|Location2.Y=1150.007mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7649.581mil|Location2.X=7657.248mil|Location1.Y=1142.341mil|Location2.Y=1150.007mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.254mm) Between Board Edge And Track (141.146mm,2.76mm)(155.169mm,2.76mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7649.806mil|Location2.X=7657.472mil|Location1.Y=2158.089mil|Location2.Y=2165.755mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7649.806mil|Location2.X=7657.472mil|Location1.Y=2158.089mil|Location2.Y=2165.755mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.254mm) Between Board Edge And Track (141.146mm,28.56mm)(155.168mm,28.56mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7649.816mil|Location2.X=7657.482mil|Location1.Y=2268.325mil|Location2.Y=2275.991mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7649.816mil|Location2.X=7657.482mil|Location1.Y=2268.325mil|Location2.Y=2275.991mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.254mm) Between Board Edge And Track (141.146mm,31.36mm)(155.169mm,31.36mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7649.806mil|Location2.X=7657.472mil|Location1.Y=2721.081mil|Location2.Y=2728.747mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7649.806mil|Location2.X=7657.472mil|Location1.Y=2721.081mil|Location2.Y=2728.747mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.254mm) Between Board Edge And Track (141.146mm,42.86mm)(155.168mm,42.86mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7649.816mil|Location2.X=7657.482mil|Location1.Y=2831.317mil|Location2.Y=2838.983mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7649.816mil|Location2.X=7657.482mil|Location1.Y=2831.317mil|Location2.Y=2838.983mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.254mm) Between Board Edge And Track (141.146mm,45.66mm)(155.169mm,45.66mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7649.806mil|Location2.X=7657.472mil|Location1.Y=3284.073mil|Location2.Y=3291.739mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7649.806mil|Location2.X=7657.472mil|Location1.Y=3284.073mil|Location2.Y=3291.739mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.254mm) Between Board Edge And Track (141.146mm,57.16mm)(155.168mm,57.16mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7649.816mil|Location2.X=7657.482mil|Location1.Y=3394.309mil|Location2.Y=3401.975mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7649.816mil|Location2.X=7657.482mil|Location1.Y=3394.309mil|Location2.Y=3401.975mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.254mm) Between Board Edge And Track (141.146mm,59.96mm)(155.169mm,59.96mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7649.806mil|Location2.X=7657.472mil|Location1.Y=3847.065mil|Location2.Y=3854.731mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7649.806mil|Location2.X=7657.472mil|Location1.Y=3847.065mil|Location2.Y=3854.731mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.254mm) Between Board Edge And Track (141.146mm,71.46mm)(155.168mm,71.46mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7447.381mil|Location2.X=7455.047mil|Location1.Y=4340.765mil|Location2.Y=4348.432mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7447.381mil|Location2.X=7455.047mil|Location1.Y=4340.765mil|Location2.Y=4348.432mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.254mm) Between Board Edge And Track (143.04mm,75.8mm)(143.04mm,92.2mm) on Bottom Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7447.381mil|Location2.X=7455.047mil|Location1.Y=4523.836mil|Location2.Y=4531.503mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7447.381mil|Location2.X=7455.047mil|Location1.Y=4523.836mil|Location2.Y=4531.503mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.254mm) Between Board Edge And Track (143.04mm,80.45mm)(143.04mm,96.85mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7924.921mil|Location2.X=7932.587mil|Location1.Y=1931.711mil|Location2.Y=1939.377mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7924.921mil|Location2.X=7932.587mil|Location1.Y=1931.711mil|Location2.Y=1939.377mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.254mm) Between Board Edge And Track (155.169mm,17.06mm)(155.169mm,28.56mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7924.921mil|Location2.X=7932.587mil|Location1.Y=1368.719mil|Location2.Y=1376.385mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7924.921mil|Location2.X=7932.587mil|Location1.Y=1368.719mil|Location2.Y=1376.385mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.254mm) Between Board Edge And Track (155.169mm,2.76mm)(155.169mm,14.26mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7924.921mil|Location2.X=7932.587mil|Location1.Y=2494.703mil|Location2.Y=2502.369mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7924.921mil|Location2.X=7932.587mil|Location1.Y=2494.703mil|Location2.Y=2502.369mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.254mm) Between Board Edge And Track (155.169mm,31.36mm)(155.169mm,42.86mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7924.921mil|Location2.X=7932.587mil|Location1.Y=3057.695mil|Location2.Y=3065.361mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7924.921mil|Location2.X=7932.587mil|Location1.Y=3057.695mil|Location2.Y=3065.361mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.254mm) Between Board Edge And Track (155.169mm,45.66mm)(155.169mm,57.16mm) on Top Overlay </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7924.921mil|Location2.X=7932.587mil|Location1.Y=3620.687mil|Location2.Y=3628.353mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7924.921mil|Location2.X=7932.587mil|Location1.Y=3620.687mil|Location2.Y=3628.353mil|Absolute=True">Board Outline Clearance(Outline Edge): (Collision &lt; 0.254mm) Between Board Edge And Track (155.169mm,59.96mm)(155.169mm,71.46mm) on Top Overlay </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>
