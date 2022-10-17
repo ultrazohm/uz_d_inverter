@@ -1,0 +1,20 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: UZ_D_Inverter.PcbDoc   17.10.2022  09:58:30
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Copper to Bottom Copper
+ASCII RoundHoles File : UZ_D_Inverter_Rev01.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      10mil (0.249mm)                                           Round             502       PTH        82.34inch (2091.51mm)
+T2      28mil (0.701mm)                                           Round             369       PTH        63.30inch (1607.89mm)
+T3      45mil (1.151mm)                                           Round             6         PTH        3.04inch (77.28mm)
+T4      53mil (1.349mm)                                           Round             20        PTH        6.76inch (171.60mm)
+T5      89mil (2.25mm)                                            Round             5         PTH        2.25inch (57.20mm)
+T6      126mil (3.2mm)                                            Round             4         PTH        4.07inch (103.30mm)
+T7      126mil (3.2mm)                                            Round             4         NPTH       0.68inch (17.35mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              910
+
+Total Processing Time (hh:mm:ss) : 00:00:00
