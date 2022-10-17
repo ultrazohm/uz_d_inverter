@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc
 Date     : 17.10.2022
-Time     : 15:58:45
+Time     : 16:34:14
 
 Processing Rule : Clearance Constraint (Gap=0.1mm) (All),(All)
    Violation between Clearance Constraint: (0.091mm < 0.1mm) Between Pad J1-M1(137.64mm,82.3mm) on Multi-Layer And Region (0 hole(s)) Top Copper 
@@ -19,39 +19,16 @@ Processing Rule : Clearance Constraint (Gap=0.1mm) (InNetClass('Power')),(All)
 Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=0.1mm) (OnLayer('Bottom Copper')),(OnLayer('Bottom Copper'))
-   Violation between Clearance Constraint: (0.1mm < 0.2mm) Between Track (115.205mm,99.31mm)(122.015mm,92.5mm) on Bottom Copper And Track (115.31mm,98.71mm)(123.49mm,90.53mm) on Bottom Copper 
-   Violation between Clearance Constraint: (0.1mm < 0.2mm) Between Track (115.205mm,99.31mm)(122.015mm,92.5mm) on Bottom Copper And Track (62.21mm,98.71mm)(115.31mm,98.71mm) on Bottom Copper 
-   Violation between Clearance Constraint: (0.1mm < 0.2mm) Between Track (115.31mm,98.71mm)(123.49mm,90.53mm) on Bottom Copper And Track (122.015mm,92.5mm)(123.49mm,92.5mm) on Bottom Copper 
-Rule Violations :3
+Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=0.1mm) (OnLayer('Top Copper')),(OnLayer('Top Copper'))
-   Violation between Clearance Constraint: (0.111mm < 0.2mm) Between Pad C27A-1(109.7mm,38.95mm) on Top Copper And Track (108.609mm,39.9mm)(109.025mm,39.485mm) on Top Copper 
-   Violation between Clearance Constraint: (0.1mm < 0.2mm) Between Pad C27A-1(109.7mm,38.95mm) on Top Copper And Track (109.025mm,33.675mm)(109.025mm,39.485mm) on Top Copper 
-   Violation between Clearance Constraint: (0.1mm < 0.2mm) Between Pad C27A-2(108.3mm,38.95mm) on Top Copper And Track (108.609mm,39.9mm)(109.025mm,39.485mm) on Top Copper 
-   Violation between Clearance Constraint: (0.15mm < 0.2mm) Between Pad C27A-2(108.3mm,38.95mm) on Top Copper And Track (109.025mm,33.675mm)(109.025mm,39.485mm) on Top Copper 
-   Violation between Clearance Constraint: (0.1mm < 0.2mm) Between Pad C27C-1(109.61mm,7.73mm) on Top Copper And Track (108.935mm,2.595mm)(108.935mm,8.522mm) on Top Copper 
-   Violation between Clearance Constraint: (0.15mm < 0.2mm) Between Pad C27C-2(108.21mm,7.73mm) on Top Copper And Track (108.935mm,2.595mm)(108.935mm,8.522mm) on Top Copper 
-   Violation between Clearance Constraint: (0.1mm < 0.2mm) Between Pad C82A-2(110.48mm,33.48mm) on Top Copper And Track (109.025mm,33.675mm)(109.995mm,32.705mm) on Top Copper 
-   Violation between Clearance Constraint: (0.1mm < 0.2mm) Between Pad C82A-2(110.48mm,33.48mm) on Top Copper And Track (109.995mm,32.705mm)(111.205mm,32.705mm) on Top Copper 
-   Violation between Clearance Constraint: (0.1mm < 0.2mm) Between Pad C82C-2(110.52mm,2.27mm) on Top Copper And Track (108.935mm,2.595mm)(110.035mm,1.495mm) on Top Copper 
-   Violation between Clearance Constraint: (0.1mm < 0.2mm) Between Pad C82C-2(110.52mm,2.27mm) on Top Copper And Track (110.035mm,1.495mm)(111.245mm,1.495mm) on Top Copper 
-   Violation between Clearance Constraint: (0.119mm < 0.2mm) Between Pad IC2A-5(111.2mm,34.735mm) on Top Copper And Track (111.961mm,35.385mm)(112.225mm,35.121mm) on Top Copper 
-   Violation between Clearance Constraint: (0.1mm < 0.2mm) Between Pad IC2A-5(111.2mm,34.735mm) on Top Copper And Track (112.225mm,33.925mm)(112.225mm,35.121mm) on Top Copper 
-   Violation between Clearance Constraint: (0.1mm < 0.2mm) Between Pad IC2B-5(111.2mm,19.025mm) on Top Copper And Track (111.935mm,19.675mm)(112.225mm,19.385mm) on Top Copper 
-   Violation between Clearance Constraint: (0.1mm < 0.2mm) Between Pad IC2B-5(111.2mm,19.025mm) on Top Copper And Track (112.225mm,17.965mm)(112.225mm,19.385mm) on Top Copper 
-   Violation between Clearance Constraint: (0.127mm < 0.2mm) Between Pad IC2B-5(111.2mm,19.025mm) on Top Copper And Track (112.225mm,19.385mm)(112.225mm,19.775mm) on Top Copper 
-   Violation between Clearance Constraint: (0.121mm < 0.2mm) Between Pad IC2C-5(111.2mm,3.525mm) on Top Copper And Track (111.965mm,4.175mm)(112.25mm,3.89mm) on Top Copper 
-   Violation between Clearance Constraint: (0.125mm < 0.2mm) Between Pad IC2C-5(111.2mm,3.525mm) on Top Copper And Track (112.25mm,2.7mm)(112.25mm,3.89mm) on Top Copper 
-   Violation between Clearance Constraint: (0.197mm < 0.2mm) Between Pad IC2C-6(111.2mm,4.175mm) on Top Copper And Track (109.802mm,3.528mm)(111.198mm,3.528mm) on Top Copper 
-   Violation between Clearance Constraint: (0.198mm < 0.2mm) Between Track (109.802mm,3.528mm)(111.198mm,3.528mm) on Top Copper And Track (111.2mm,4.175mm)(111.965mm,4.175mm) on Top Copper 
-Rule Violations :19
+Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-   Violation between Un-Routed Net Constraint: Net GND Between Pad IC6B-2(33.1mm,55.57mm) on Top Copper [Unplated] And Track (36.933mm,56.927mm)(36.933mm,58.817mm) on Top Copper 
-Rule Violations :1
+Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (InNetClass('15V_SingleEnded') or InNetClass('3V3_SingleEnded') or InNetClass('5V_SingleEnded') or InNetClass('DifferentialSignals')) )
 Rule Violations :0
@@ -182,6 +159,6 @@ Waived Violations Of Rule : Board Clearance Constraint (Gap=0mm) (All)
 Waived Violations :36
 
 
-Violations Detected : 29
+Violations Detected : 6
 Waived Violations : 38
 Time Elapsed        : 00:00:03
