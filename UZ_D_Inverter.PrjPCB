@@ -234,24 +234,24 @@ DocumentPath=Project Outputs for UZ_D_Inverter\Design Rule Check - UZ_D_Inverter
 DItemRevisionGUID=
 
 [Parameter1]
-Name=Author
-Value=D. Hufnagel
+Name=ProjectRevision
+Value=Rev01
 
 [Parameter2]
+Name=Project
+Value=UZ_D_Inverter
+
+[Parameter3]
+Name=ProjectDate
+Value=10/2022
+
+[Parameter4]
 Name=AuthorParam
 Value=D. Hufnagel
 
-[Parameter3]
-Name=Date
-Value=07/2022
-
-[Parameter4]
-Name=ProjectNameCustom
-Value=UZ_D_Inverter_Template
-
 [Parameter5]
-Name=ProjectRevision
-Value=Rev01
+Name=Author
+Value=D. Hufnagel
 
 [Configuration1]
 Name=Sources
