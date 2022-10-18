@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc
 Date     : 18.10.2022
-Time     : 11:08:31
+Time     : 11:24:10
 
 Processing Rule : Clearance Constraint (Gap=0.1mm) (All),(All)
    Violation between Clearance Constraint: (0.091mm < 0.1mm) Between Pad J1-M1(137.64mm,82.3mm) on Multi-Layer And Region (0 hole(s)) Top Copper 
@@ -28,25 +28,8 @@ Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-   Violation between Un-Routed Net Constraint: Net IC_P Between Pad IC3C-4(38.18mm,13.569mm) on Bottom Copper [Unplated] And Pad C11C-1(39.05mm,7.804mm) on Bottom Copper 
-   Violation between Un-Routed Net Constraint: Net IC_P Between Pad R15C-1(39mm,6.304mm) on Bottom Copper And Pad C11C-1(39.05mm,7.804mm) on Bottom Copper 
-   Violation between Un-Routed Net Constraint: Net NetC11C_2 Between Pad C11C-2(37.65mm,7.804mm) on Bottom Copper And Pad IC3C-8(43.28mm,9.759mm) on Bottom Copper [Unplated] 
-   Violation between Un-Routed Net Constraint: Net NetC11C_2 Between Pad C11C-2(37.65mm,7.804mm) on Bottom Copper And Pad R15C-2(37.7mm,6.304mm) on Bottom Copper 
-   Violation between Un-Routed Net Constraint: Net IC_N Between Pad C12C-1(42.4mm,7.804mm) on Bottom Copper And Pad IC3C-5(43.28mm,13.569mm) on Bottom Copper [Unplated] 
-   Violation between Un-Routed Net Constraint: Net IC_N Between Pad C12C-1(42.4mm,7.804mm) on Bottom Copper And Pad R14C-1(42.45mm,6.304mm) on Bottom Copper 
-   Violation between Un-Routed Net Constraint: Net NetC12C_2 Between Pad IC3C-1(38.18mm,9.759mm) on Bottom Copper [Unplated] And Pad C12C-2(43.8mm,7.804mm) on Bottom Copper 
-   Violation between Un-Routed Net Constraint: Net NetC12C_2 Between Pad R14C-2(43.75mm,6.304mm) on Bottom Copper And Pad C12C-2(43.8mm,7.804mm) on Bottom Copper 
-   Violation between Un-Routed Net Constraint: Net VCOM_1C Between Pad C24C-2(36.08mm,11.03mm) on Bottom Copper And Pad IC3C-2(38.18mm,11.029mm) on Bottom Copper [Unplated] 
-   Violation between Un-Routed Net Constraint: Net GND Between Pad IC3C-6(43.28mm,12.299mm) on Bottom Copper [Unplated] And Pad C81C-1(45.46mm,12.35mm) on Bottom Copper 
-   Violation between Un-Routed Net Constraint: Net 5V_PER Between Pad IC3C-7(43.28mm,11.029mm) on Bottom Copper [Unplated] And Pad C81C-2(45.46mm,10.95mm) on Bottom Copper 
-   Violation between Un-Routed Net Constraint: Net 5V_PER Between Pad IC3C-3(38.18mm,12.299mm) on Bottom Copper [Unplated] And Pad IC3C-7(43.28mm,11.029mm) on Bottom Copper [Unplated] 
-   Violation between Un-Routed Net Constraint: Net 5V_PER Between Pad IC8C-5(30.342mm,14.435mm) on Top Copper [Unplated] And Pad IC3C-3(38.18mm,12.299mm) on Bottom Copper [Unplated] 
-   Violation between Un-Routed Net Constraint: Net IC_P Between Pad IC3C-4(38.18mm,13.569mm) on Bottom Copper [Unplated] And Pad R20C-2(38.18mm,15.794mm) on Bottom Copper 
-   Violation between Un-Routed Net Constraint: Net IC_N Between Pad IC3C-5(43.28mm,13.569mm) on Bottom Copper [Unplated] And Pad R19C-2(43.28mm,15.794mm) on Bottom Copper 
-   Violation between Un-Routed Net Constraint: Net NetC12C_2 Between Pad R14C-2(43.75mm,6.304mm) on Bottom Copper And Pad R12C-1(47.33mm,6.324mm) on Bottom Copper 
-   Violation between Un-Routed Net Constraint: Net NetC11C_2 Between Pad R13C-1(37.7mm,4.504mm) on Bottom Copper And Pad R15C-2(37.7mm,6.304mm) on Bottom Copper 
-   Violation between Un-Routed Net Constraint: Net 2V5_REF Between Track (47.33mm,7.624mm)(47.355mm,7.649mm) on Bottom Copper And Track (49.045mm,7.649mm)(49.07mm,7.674mm) on Bottom Copper 
-Rule Violations :18
+   Violation between Un-Routed Net Constraint: Net NetC12C_2 Between Track (47.263mm,11.687mm)(47.313mm,11.737mm) on Bottom Copper And Pad C12C-2(47.363mm,13.237mm) on Bottom Copper 
+Rule Violations :1
 
 Processing Rule : Un-Routed Net Constraint ( (InNetClass('15V_SingleEnded') or InNetClass('3V3_SingleEnded') or InNetClass('5V_SingleEnded') or InNetClass('DifferentialSignals')) )
 Rule Violations :0
@@ -117,7 +100,7 @@ Rule Violations :0
 Processing Rule : Room Voltage_Meas1 (Bounding Region = (56.481mm, 94.943mm, 78.161mm, 109.663mm) (InComponent('C15A', 'R24A', 'R26A', 'R21A', 'IC4A', 'R25A', 'R23A', 'C14A', 'C16A', 'R28A', 'R22A', 'R27A', 'C13A', 'C80A', 'C23A'))
 Rule Violations :0
 
-Processing Rule : Room Current_Meas3 (Bounding Region = (79.091mm, 29.903mm, 95.161mm, 44.933mm) (InComponent('IC3C','R12C','R13C','R14C','R15C','R17C','R18C','R19C','R20C','C81C','C24C','C12C','C11C'))
+Processing Rule : Room Current_Meas3 (Bounding Region = (79.091mm, 29.903mm, 95.161mm, 43.418mm) (InComponent('IC3C','R12C','R13C','R14C','R15C','R17C','R18C','R19C','R20C','C81C','C24C','C12C','C11C'))
 Rule Violations :0
 
 Processing Rule : Room Temp_Meas2T (Bounding Region = (74.503mm, 77.488mm, 88.703mm, 87.408mm) (InComponent('R30B', 'R43B', 'R29B', 'C18B', 'IC6B', 'R33B', 'R35B', 'R34B', 'C19B'))
@@ -177,6 +160,6 @@ Waived Violations Of Rule : Board Clearance Constraint (Gap=0mm) (All)
 Waived Violations :36
 
 
-Violations Detected : 24
+Violations Detected : 7
 Waived Violations : 38
-Time Elapsed        : 00:00:03
+Time Elapsed        : 00:00:04
