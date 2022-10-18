@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc
 Date     : 18.10.2022
-Time     : 11:24:10
+Time     : 11:49:12
 
 Processing Rule : Clearance Constraint (Gap=0.1mm) (All),(All)
    Violation between Clearance Constraint: (0.091mm < 0.1mm) Between Pad J1-M1(137.64mm,82.3mm) on Multi-Layer And Region (0 hole(s)) Top Copper 
@@ -28,8 +28,7 @@ Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-   Violation between Un-Routed Net Constraint: Net NetC12C_2 Between Track (47.263mm,11.687mm)(47.313mm,11.737mm) on Bottom Copper And Pad C12C-2(47.363mm,13.237mm) on Bottom Copper 
-Rule Violations :1
+Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (InNetClass('15V_SingleEnded') or InNetClass('3V3_SingleEnded') or InNetClass('5V_SingleEnded') or InNetClass('DifferentialSignals')) )
 Rule Violations :0
@@ -160,6 +159,6 @@ Waived Violations Of Rule : Board Clearance Constraint (Gap=0mm) (All)
 Waived Violations :36
 
 
-Violations Detected : 7
+Violations Detected : 6
 Waived Violations : 38
-Time Elapsed        : 00:00:04
+Time Elapsed        : 00:00:03
