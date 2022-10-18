@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc
-Date     : 17.10.2022
-Time     : 16:34:14
+Date     : 18.10.2022
+Time     : 10:30:47
 
 Processing Rule : Clearance Constraint (Gap=0.1mm) (All),(All)
    Violation between Clearance Constraint: (0.091mm < 0.1mm) Between Pad J1-M1(137.64mm,82.3mm) on Multi-Layer And Region (0 hole(s)) Top Copper 
@@ -36,7 +36,7 @@ Rule Violations :0
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=0.1mm) (Max=10mm) (Preferred=0.3mm) (All)
+Processing Rule : Width Constraint (Min=0.1mm) (Max=10mm) (Preferred=0.2mm) (All)
 Rule Violations :0
 
 Processing Rule : Width Constraint (Min=0.2mm) (Max=10mm) (Preferred=0.3mm) (InNetClass('Power'))
@@ -75,7 +75,7 @@ Rule Violations :0
 Processing Rule : Room Temp_Meas3B (Bounding Region = (73.661mm, 36.237mm, 88.757mm, 46.267mm) (InComponent('R38C', 'R39C', 'C21C', 'IC8C', 'R40C', 'R41C', 'R42C', 'C22C'))
 Rule Violations :0
 
-Processing Rule : Room Current_Meas1 (Bounding Region = (88.843mm, 90.303mm, 104.913mm, 106.448mm) (InComponent('IC3A','R12A','R13A','R14A','R15A','R17A','R18A','R19A','R20A','C81A','C24A','C12A','C11A'))
+Processing Rule : Room Current_Meas1 (Bounding Region = (88.843mm, 92.933mm, 104.913mm, 106.448mm) (InComponent('IC3A','R12A','R13A','R14A','R15A','R17A','R18A','R19A','R20A','C81A','C24A','C12A','C11A'))
 Rule Violations :0
 
 Processing Rule : Room Halfbridge3 (Bounding Region = (58.631mm, 27.763mm, 145.801mm, 56.853mm) (InComponentClass('Halfbridge3'))
