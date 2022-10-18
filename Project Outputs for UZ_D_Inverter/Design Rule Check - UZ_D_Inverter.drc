@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc
 Date     : 18.10.2022
-Time     : 11:49:12
+Time     : 13:18:41
 
 Processing Rule : Clearance Constraint (Gap=0.1mm) (All),(All)
    Violation between Clearance Constraint: (0.091mm < 0.1mm) Between Pad J1-M1(137.64mm,82.3mm) on Multi-Layer And Region (0 hole(s)) Top Copper 
