@@ -1,15 +1,15 @@
 Protel Design System Design Rule Check
 PCB File : E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc
-Date     : 18.10.2022
-Time     : 15:06:55
+Date     : 19.10.2022
+Time     : 11:18:02
+
+Processing Rule : Clearance Constraint (Gap=0.1mm) (OnLayer('Bottom Copper')),(OnLayer('Bottom Copper'))
+Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=0.1mm) (OnLayer('Top Copper')),(OnLayer('Top Copper'))
 Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=0.1mm) (InNetClass('DifferentialSignals')),(All)
-Rule Violations :0
-
-Processing Rule : Clearance Constraint (Gap=0.1mm) (OnLayer('Bottom Copper')),(OnLayer('Bottom Copper'))
 Rule Violations :0
 
 Processing Rule : Clearance Constraint (Gap=0.1mm) (InNetClass('Power')),(All)
@@ -57,13 +57,13 @@ Rule Violations :0
 Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
 Rule Violations :0
 
-Processing Rule : Room Temp_Meas3T (Bounding Region = (74.733mm, 50.158mm, 88.933mm, 60.078mm) (InComponent('R30C', 'R43C', 'R29C', 'C18C', 'IC6C', 'R33C', 'R35C', 'R34C', 'C19C'))
-Rule Violations :0
-
 Processing Rule : Room Halfbridge1 (Bounding Region = (58.651mm, 81.783mm, 145.821mm, 116.383mm) (InComponentClass('Halfbridge1'))
 Rule Violations :0
 
-Processing Rule : Room Temp_Meas1T (Bounding Region = (74.441mm, 108.713mm, 88.641mm, 118.633mm) (InComponent('R30A', 'R43A', 'R29A', 'C18A', 'IC6A', 'R33A', 'R35A', 'R34A', 'C19A'))
+Processing Rule : Room Halfbridge2 (Bounding Region = (58.691mm, 53.423mm, 145.861mm, 85.993mm) (InComponentClass('Halfbridge2'))
+Rule Violations :0
+
+Processing Rule : Room Temp_Meas3T (Bounding Region = (74.733mm, 50.158mm, 88.933mm, 60.078mm) (InComponent('R30C', 'R43C', 'R29C', 'C18C', 'IC6C', 'R33C', 'R35C', 'R34C', 'C19C'))
 Rule Violations :0
 
 Processing Rule : Room Temp_Meas2B (Bounding Region = (74.456mm, 65.687mm, 88.797mm, 75.717mm) (InComponent('R38B', 'R44B', 'R39B', 'C21B', 'IC8B', 'R40B', 'R41B', 'R42B', 'C22B'))
@@ -81,34 +81,34 @@ Rule Violations :0
 Processing Rule : Room Current_Meas1 (Bounding Region = (88.843mm, 92.933mm, 104.913mm, 106.448mm) (InComponent('IC3A','R12A','R13A','R14A','R15A','R17A','R18A','R19A','R20A','C81A','C24A','C12A','C11A'))
 Rule Violations :0
 
-Processing Rule : Room Halfbridge2 (Bounding Region = (58.691mm, 53.423mm, 145.861mm, 85.993mm) (InComponentClass('Halfbridge2'))
-Rule Violations :0
-
 Processing Rule : Room Halfbridge3 (Bounding Region = (58.631mm, 27.763mm, 145.801mm, 56.853mm) (InComponentClass('Halfbridge3'))
 Rule Violations :0
 
-Processing Rule : Room Voltage_Meas2 (Bounding Region = (56.631mm, 62.463mm, 78.311mm, 77.183mm) (InComponent('C15B', 'R24B', 'R26B', 'R21B', 'IC4B', 'R25B', 'R23B', 'C14B', 'C16B', 'R28B', 'R22B', 'R27B', 'C13B', 'C80B', 'C23B'))
+Processing Rule : Room Voltage_Meas2 (Bounding Region = (56.631mm, 62.463mm, 78.881mm, 77.183mm) (InComponent('C15B', 'R24B', 'R26B', 'R21B', 'IC4B', 'R25B', 'R23B', 'C14B', 'C16B', 'R28B', 'R22B', 'R27B', 'C13B', 'C80B', 'C23B'))
 Rule Violations :0
 
 Processing Rule : Room Current_MeasDC (Bounding Region = (146.281mm, 89.753mm, 163.751mm, 103.323mm) (InComponent('R57', 'R58', 'R55', 'R56', 'R54', 'R53', 'R51', 'R52', 'C50', 'C51', 'C58', 'C60', 'IC10'))
 Rule Violations :0
 
-Processing Rule : Room Reference (Bounding Region = (43.261mm, 71.843mm, 57.661mm, 79.313mm) (InComponentClass('Reference'))
+Processing Rule : Room Voltage_Meas3 (Bounding Region = (56.541mm, 30.333mm, 78.741mm, 45.053mm) (InComponent('C15C', 'R24C', 'R26C', 'R21C', 'IC4C', 'R25C', 'R23C', 'C14C', 'C16C', 'R28C', 'R22C', 'R27C', 'C13C', 'C80C', 'C23C'))
 Rule Violations :0
 
-Processing Rule : Room Voltage_Meas1 (Bounding Region = (56.481mm, 94.943mm, 78.161mm, 109.663mm) (InComponent('C15A', 'R24A', 'R26A', 'R21A', 'IC4A', 'R25A', 'R23A', 'C14A', 'C16A', 'R28A', 'R22A', 'R27A', 'C13A', 'C80A', 'C23A'))
+Processing Rule : Room Reference (Bounding Region = (40.941mm, 71.843mm, 57.661mm, 79.313mm) (InComponentClass('Reference'))
 Rule Violations :0
 
-Processing Rule : Room Current_Meas3 (Bounding Region = (79.091mm, 29.903mm, 95.161mm, 43.418mm) (InComponent('IC3C','R12C','R13C','R14C','R15C','R17C','R18C','R19C','R20C','C81C','C24C','C12C','C11C'))
+Processing Rule : Room Voltage_Meas1 (Bounding Region = (56.481mm, 94.943mm, 78.281mm, 109.663mm) (InComponent('C15A', 'R24A', 'R26A', 'R21A', 'IC4A', 'R25A', 'R23A', 'C14A', 'C16A', 'R28A', 'R22A', 'R27A', 'C13A', 'C80A', 'C23A'))
 Rule Violations :0
 
 Processing Rule : Room Temp_Meas2T (Bounding Region = (74.503mm, 77.488mm, 88.703mm, 87.408mm) (InComponent('R30B', 'R43B', 'R29B', 'C18B', 'IC6B', 'R33B', 'R35B', 'R34B', 'C19B'))
 Rule Violations :0
 
-Processing Rule : Room Voltage_Meas3 (Bounding Region = (56.541mm, 30.333mm, 78.221mm, 45.053mm) (InComponent('C15C', 'R24C', 'R26C', 'R21C', 'IC4C', 'R25C', 'R23C', 'C14C', 'C16C', 'R28C', 'R22C', 'R27C', 'C13C', 'C80C', 'C23C'))
+Processing Rule : Room Temp_Meas1T (Bounding Region = (73.281mm, 108.713mm, 88.641mm, 118.633mm) (InComponent('R30A', 'R43A', 'R29A', 'C18A', 'IC6A', 'R33A', 'R35A', 'R34A', 'C19A'))
 Rule Violations :0
 
 Processing Rule : Room Voltage_MeasDC (Bounding Region = (88.999mm, 106.083mm, 113.451mm, 124.436mm) (InComponent('R60', 'R61', 'C53', 'C54', 'R63', 'R64', 'IC12', 'R65', 'R66', 'C55', 'C56', 'C59', 'C57', 'R68', 'R67'))
+Rule Violations :0
+
+Processing Rule : Room Current_Meas3 (Bounding Region = (79.091mm, 29.903mm, 95.161mm, 43.418mm) (InComponent('IC3C','R12C','R13C','R14C','R15C','R17C','R18C','R19C','R20C','C81C','C24C','C12C','C11C'))
 Rule Violations :0
 
 Processing Rule : Height Constraint (Min=0mm) (Max=50mm) (Prefered=12.7mm) (All)
