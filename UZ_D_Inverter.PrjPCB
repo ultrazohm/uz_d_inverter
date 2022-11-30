@@ -219,6 +219,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document11]
+DocumentPath=Temp_Measurements.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=7
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=KRDRCBGZ
+
 [ProjectVariant1]
 UniqueID=BEA43099-09AD-4999-B90C-9EDD39F1A21C
 Description=Inverter_V1
@@ -234,24 +251,28 @@ DocumentPath=Project Outputs for UZ_D_Inverter\Design Rule Check - UZ_D_Inverter
 DItemRevisionGUID=
 
 [Parameter1]
-Name=Author
-Value=D. Hufnagel
+Name=
+Value=
 
 [Parameter2]
-Name=AuthorParam
-Value=D. Hufnagel
+Name=ProjectRevision
+Value=Rev02
 
 [Parameter3]
+Name=ProjectDate
+Value=11/2022
+
+[Parameter4]
 Name=Project
 Value=UZ_D_Inverter
 
-[Parameter4]
-Name=ProjectDate
-Value=10/2022
-
 [Parameter5]
-Name=ProjectRevision
-Value=Rev01
+Name=AuthorParam
+Value=D. Hufnagel
+
+[Parameter6]
+Name=Author
+Value=D. Hufnagel
 
 [Configuration1]
 Name=Sources
@@ -411,7 +432,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=4505ci KX
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -668,6 +689,12 @@ OutputDocumentPath8=
 OutputVariantName8=[No Variations]
 OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType9=Export Project History
+OutputName9=Export Project History
+OutputDocumentPath9=
+OutputVariantName9=[No Variations]
+OutputDefault9=0
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup7]
 Name=Other Outputs
