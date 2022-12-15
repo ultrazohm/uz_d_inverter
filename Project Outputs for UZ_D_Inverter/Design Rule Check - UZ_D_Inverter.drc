@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc
-Date     : 19.10.2022
-Time     : 13:03:12
+Date     : 15.12.2022
+Time     : 14:16:35
 
 Processing Rule : Clearance Constraint (Gap=0.1mm) (OnLayer('Bottom Copper')),(OnLayer('Bottom Copper'))
 Rule Violations :0
@@ -27,19 +27,19 @@ Rule Violations :6
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
 
-Processing Rule : Un-Routed Net Constraint ( (All) )
+Processing Rule : Un-Routed Net Constraint ( (InNetClass('15V_SingleEnded') or InNetClass('3V3_SingleEnded') or InNetClass('5V_SingleEnded') or InNetClass('DifferentialSignals')) )
 Rule Violations :0
 
-Processing Rule : Un-Routed Net Constraint ( (InNetClass('15V_SingleEnded') or InNetClass('3V3_SingleEnded') or InNetClass('5V_SingleEnded') or InNetClass('DifferentialSignals')) )
+Processing Rule : Un-Routed Net Constraint ( (All) )
 Rule Violations :0
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=0.1mm) (Max=10mm) (Preferred=0.2mm) (All)
+Processing Rule : Width Constraint (Min=0.2mm) (Max=10mm) (Preferred=0.3mm) (InNetClass('Power'))
 Rule Violations :0
 
-Processing Rule : Width Constraint (Min=0.2mm) (Max=10mm) (Preferred=0.3mm) (InNetClass('Power'))
+Processing Rule : Width Constraint (Min=0.1mm) (Max=10mm) (Preferred=0.2mm) (All)
 Rule Violations :0
 
 Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
@@ -55,60 +55,75 @@ Processing Rule : Net Antennae (Tolerance=0mm) (All)
 Rule Violations :0
 
 Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
-Rule Violations :0
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.254mm) Between Board Edge And Track (122.14mm,14.51mm)(141.145mm,14.51mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.254mm) Between Board Edge And Track (122.14mm,2.51mm)(141.145mm,2.51mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.254mm) Between Board Edge And Track (122.14mm,31.11mm)(141.145mm,31.11mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.254mm) Between Board Edge And Track (122.14mm,43.11mm)(141.145mm,43.11mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.254mm) Between Board Edge And Track (141.145mm,2.51mm)(141.145mm,14.51mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.254mm) Between Board Edge And Track (141.145mm,31.11mm)(141.145mm,43.11mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.254mm) Between Board Edge And Track (141.146mm,14.26mm)(155.168mm,14.26mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.254mm) Between Board Edge And Track (141.146mm,2.76mm)(155.169mm,2.76mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.254mm) Between Board Edge And Track (141.146mm,31.36mm)(155.169mm,31.36mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.254mm) Between Board Edge And Track (141.146mm,42.86mm)(155.168mm,42.86mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.254mm) Between Board Edge And Track (155.169mm,2.76mm)(155.169mm,14.26mm) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (Collision < 0.254mm) Between Board Edge And Track (155.169mm,31.36mm)(155.169mm,42.86mm) on Top Overlay 
+Rule Violations :12
 
-Processing Rule : Room Halfbridge1 (Bounding Region = (58.651mm, 81.783mm, 145.821mm, 116.383mm) (InComponentClass('Halfbridge1'))
-Rule Violations :0
-
-Processing Rule : Room Halfbridge2 (Bounding Region = (58.691mm, 53.423mm, 145.861mm, 85.993mm) (InComponentClass('Halfbridge2'))
-Rule Violations :0
-
-Processing Rule : Room Temp_Meas3T (Bounding Region = (74.733mm, 50.158mm, 88.933mm, 60.078mm) (InComponent('R30C', 'R43C', 'R29C', 'C18C', 'IC6C', 'R33C', 'R35C', 'R34C', 'C19C'))
-Rule Violations :0
-
-Processing Rule : Room Temp_Meas2B (Bounding Region = (74.456mm, 65.687mm, 88.797mm, 75.717mm) (InComponent('R38B', 'R44B', 'R39B', 'C21B', 'IC8B', 'R40B', 'R41B', 'R42B', 'C22B'))
-Rule Violations :0
-
-Processing Rule : Room Temp_Meas1B (Bounding Region = (74.536mm, 92.687mm, 88.877mm, 102.717mm) (InComponent('R38A', 'R44A', 'R39A', 'C21A', 'IC8A', 'R40A', 'R41A', 'R42A', 'C22A'))
-Rule Violations :0
-
-Processing Rule : Room Current_Meas2 (Bounding Region = (85.308mm, 58.811mm, 101.378mm, 72.326mm) (InComponent('IC3B','R12B','R13B','R14B','R15B','R17B','R18B','R19B','R20B','C81B','C24B','C12B','C11B'))
+Processing Rule : Matched Lengths(Delay Tolerance=100ps) (InNetClass('DifferentialSignals'))
 Rule Violations :0
 
 Processing Rule : Room Temp_Meas3B (Bounding Region = (73.661mm, 36.237mm, 88.757mm, 46.267mm) (InComponent('R38C', 'R39C', 'C21C', 'IC8C', 'R40C', 'R41C', 'R42C', 'C22C'))
 Rule Violations :0
 
-Processing Rule : Room Current_Meas1 (Bounding Region = (88.843mm, 92.933mm, 104.913mm, 106.448mm) (InComponent('IC3A','R12A','R13A','R14A','R15A','R17A','R18A','R19A','R20A','C81A','C24A','C12A','C11A'))
+Processing Rule : Room Voltage_Meas3 (Bounding Region = (56.541mm, 32.893mm, 78.741mm, 45.053mm) (InComponent('C15C', 'R24C', 'R26C', 'R21C', 'U4C', 'R25C', 'R23C', 'C14C', 'C16C', 'R28C', 'R22C', 'R27C', 'C13C', 'C80C', 'C23C', 'R129C', 'R130C', 'L4C'))
 Rule Violations :0
 
-Processing Rule : Room Halfbridge3 (Bounding Region = (58.631mm, 27.763mm, 145.801mm, 56.853mm) (InComponentClass('Halfbridge3'))
+Processing Rule : Room Halfbridge3 (Bounding Region = (58.631mm, 27.763mm, 145.801mm, 55.533mm) (InComponentClass('Halfbridge3'))
 Rule Violations :0
 
-Processing Rule : Room Voltage_Meas2 (Bounding Region = (56.631mm, 62.463mm, 78.881mm, 77.183mm) (InComponent('C15B', 'R24B', 'R26B', 'R21B', 'IC4B', 'R25B', 'R23B', 'C14B', 'C16B', 'R28B', 'R22B', 'R27B', 'C13B', 'C80B', 'C23B'))
+Processing Rule : Room Current_Meas2 (Bounding Region = (85.308mm, 58.811mm, 101.941mm, 72.326mm) (InComponent('U3B','R12B','R13B','R14B','R15B','R17B','R18B','R19B','R20B','C81B','C24B','C12B','C11B','L3B'))
 Rule Violations :0
 
-Processing Rule : Room Current_MeasDC (Bounding Region = (146.281mm, 89.753mm, 163.751mm, 103.323mm) (InComponent('R57', 'R58', 'R55', 'R56', 'R54', 'R53', 'R51', 'R52', 'C50', 'C51', 'C58', 'C60', 'IC10'))
+Processing Rule : Room Voltage_Meas2 (Bounding Region = (56.631mm, 62.463mm, 78.831mm, 74.623mm) (InComponent('C15B', 'R24B', 'R26B', 'R21B', 'U4B', 'R25B', 'R23B', 'C14B', 'C16B', 'R28B', 'R22B', 'R27B', 'C13B', 'C80B', 'C23B', 'R129B', 'R130B','L4B'))
 Rule Violations :0
 
-Processing Rule : Room Voltage_Meas3 (Bounding Region = (56.541mm, 30.333mm, 78.741mm, 45.053mm) (InComponent('C15C', 'R24C', 'R26C', 'R21C', 'IC4C', 'R25C', 'R23C', 'C14C', 'C16C', 'R28C', 'R22C', 'R27C', 'C13C', 'C80C', 'C23C'))
+Processing Rule : Room Voltage_Meas1 (Bounding Region = (56.481mm, 94.943mm, 78.681mm, 107.103mm) (InComponent('C15A', 'R24A', 'R26A', 'R21A', 'U4A', 'R25A', 'R23A', 'C14A', 'C16A', 'R28A', 'R22A', 'R27A', 'C13A', 'C80A', 'C23A', 'R129A', 'R130A','L4A'))
 Rule Violations :0
 
-Processing Rule : Room Reference (Bounding Region = (40.941mm, 71.843mm, 57.661mm, 79.313mm) (InComponentClass('Reference'))
+Processing Rule : Room Current_Meas1 (Bounding Region = (88.843mm, 92.933mm, 105.475mm, 106.448mm) (InComponent('U3A','R12A','R13A','R14A','R15A','R17A','R18A','R19A','R20A','C81A','C24A','C12A','C11A','L3A'))
 Rule Violations :0
 
-Processing Rule : Room Voltage_Meas1 (Bounding Region = (56.481mm, 94.943mm, 78.281mm, 109.663mm) (InComponent('C15A', 'R24A', 'R26A', 'R21A', 'IC4A', 'R25A', 'R23A', 'C14A', 'C16A', 'R28A', 'R22A', 'R27A', 'C13A', 'C80A', 'C23A'))
+Processing Rule : Room Halfbridge2 (Bounding Region = (58.691mm, 50.753mm, 145.861mm, 81.193mm) (InComponentClass('Halfbridge2'))
+Rule Violations :0
+
+Processing Rule : Room Voltage_MeasDC (Bounding Region = (85.819mm, 106.963mm, 110.271mm, 125.316mm) (InComponent('R67', 'R68', 'C56', 'C57', 'R73', 'R72', 'U12', 'R60', 'R61', 'C59', 'C53', 'C54', 'L8','R63','C55','R74','R75'))
+Rule Violations :0
+
+Processing Rule : Room Halfbridge1 (Bounding Region = (58.651mm, 69.635mm, 145.821mm, 111.393mm) (InComponentClass('Halfbridge1'))
+Rule Violations :0
+
+Processing Rule : Room Current_Meas3 (Bounding Region = (79.091mm, 29.903mm, 95.741mm, 43.418mm) (InComponent('U3C','R12C','R13C','R14C','R15C','R17C','R18C','R19C','R20C','C81C','C24C','C12C','C11C','L3C'))
 Rule Violations :0
 
 Processing Rule : Room Temp_Meas2T (Bounding Region = (74.503mm, 77.488mm, 88.703mm, 87.408mm) (InComponent('R30B', 'R43B', 'R29B', 'C18B', 'IC6B', 'R33B', 'R35B', 'R34B', 'C19B'))
 Rule Violations :0
 
+Processing Rule : Room Reference (Bounding Region = (40.941mm, 71.843mm, 57.661mm, 79.313mm) (InComponentClass('Reference'))
+Rule Violations :0
+
+Processing Rule : Room Current_MeasDC (Bounding Region = (145.421mm, 94.753mm, 163.751mm, 108.323mm) (InComponent('R57', 'R58', 'R55', 'R56', 'R54', 'R53', 'R51', 'R52', 'C50', 'C51', 'C58', 'C60', 'IC10'))
+Rule Violations :0
+
+Processing Rule : Room Temp_Meas1B (Bounding Region = (74.536mm, 92.687mm, 88.877mm, 102.717mm) (InComponent('R38A', 'R44A', 'R39A', 'C21A', 'IC8A', 'R40A', 'R41A', 'R42A', 'C22A'))
+Rule Violations :0
+
+Processing Rule : Room Temp_Meas3T (Bounding Region = (74.733mm, 50.158mm, 88.933mm, 60.078mm) (InComponent('R30C', 'R43C', 'R29C', 'C18C', 'IC6C', 'R33C', 'R35C', 'R34C', 'C19C'))
+Rule Violations :0
+
 Processing Rule : Room Temp_Meas1T (Bounding Region = (73.281mm, 108.713mm, 88.641mm, 118.633mm) (InComponent('R30A', 'R43A', 'R29A', 'C18A', 'IC6A', 'R33A', 'R35A', 'R34A', 'C19A'))
 Rule Violations :0
 
-Processing Rule : Room Voltage_MeasDC (Bounding Region = (88.999mm, 106.083mm, 113.451mm, 124.436mm) (InComponent('R60', 'R61', 'C53', 'C54', 'R63', 'R64', 'IC12', 'R65', 'R66', 'C55', 'C56', 'C59', 'C57', 'R68', 'R67'))
-Rule Violations :0
-
-Processing Rule : Room Current_Meas3 (Bounding Region = (79.091mm, 29.903mm, 95.161mm, 43.418mm) (InComponent('IC3C','R12C','R13C','R14C','R15C','R17C','R18C','R19C','R20C','C81C','C24C','C12C','C11C'))
+Processing Rule : Room Temp_Meas2B (Bounding Region = (74.456mm, 65.687mm, 88.797mm, 75.717mm) (InComponent('R38B', 'R44B', 'R39B', 'C21B', 'IC8B', 'R40B', 'R41B', 'R42B', 'C22B'))
 Rule Violations :0
 
 Processing Rule : Height Constraint (Min=0mm) (Max=50mm) (Prefered=12.7mm) (All)
@@ -120,12 +135,8 @@ Waived Violations Of Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Waived Violations :2
 
 Waived Violations Of Rule : Board Clearance Constraint (Gap=0mm) (All)
-   Waived Violation between Board Outline Clearance(Outline Edge): (Collision < 0.254mm) Between Board Edge And Track (122.14mm,14.51mm)(141.145mm,14.51mm) on Top Overlay Waived by Dennis Hufnagel at 17.10.2022 09:45:00
    Waived Violation between Board Outline Clearance(Outline Edge): (Collision < 0.254mm) Between Board Edge And Track (122.14mm,16.81mm)(141.145mm,16.81mm) on Top Overlay Waived by Dennis Hufnagel at 17.10.2022 09:45:00
-   Waived Violation between Board Outline Clearance(Outline Edge): (Collision < 0.254mm) Between Board Edge And Track (122.14mm,2.51mm)(141.145mm,2.51mm) on Top Overlay Waived by Dennis Hufnagel at 17.10.2022 09:45:00
    Waived Violation between Board Outline Clearance(Outline Edge): (Collision < 0.254mm) Between Board Edge And Track (122.14mm,28.81mm)(141.145mm,28.81mm) on Top Overlay Waived by Dennis Hufnagel at 17.10.2022 09:45:00
-   Waived Violation between Board Outline Clearance(Outline Edge): (Collision < 0.254mm) Between Board Edge And Track (122.14mm,31.11mm)(141.145mm,31.11mm) on Top Overlay Waived by Dennis Hufnagel at 17.10.2022 09:45:00
-   Waived Violation between Board Outline Clearance(Outline Edge): (Collision < 0.254mm) Between Board Edge And Track (122.14mm,43.11mm)(141.145mm,43.11mm) on Top Overlay Waived by Dennis Hufnagel at 17.10.2022 09:45:00
    Waived Violation between Board Outline Clearance(Outline Edge): (Collision < 0.254mm) Between Board Edge And Track (122.14mm,45.41mm)(141.145mm,45.41mm) on Top Overlay Waived by Dennis Hufnagel at 17.10.2022 09:45:00
    Waived Violation between Board Outline Clearance(Outline Edge): (Collision < 0.254mm) Between Board Edge And Track (122.14mm,57.41mm)(141.145mm,57.41mm) on Top Overlay Waived by Dennis Hufnagel at 17.10.2022 09:45:00
    Waived Violation between Board Outline Clearance(Outline Edge): (Collision < 0.254mm) Between Board Edge And Track (122.14mm,59.71mm)(141.145mm,59.71mm) on Top Overlay Waived by Dennis Hufnagel at 17.10.2022 09:45:00
@@ -135,16 +146,10 @@ Waived Violations Of Rule : Board Clearance Constraint (Gap=0mm) (All)
    Waived Violation between Board Outline Clearance(Outline Edge): (Collision < 0.254mm) Between Board Edge And Track (139.89mm,92.2mm)(143.04mm,92.2mm) on Bottom Overlay Waived by Dennis Hufnagel at 17.10.2022 09:45:00
    Waived Violation between Board Outline Clearance(Outline Edge): (Collision < 0.254mm) Between Board Edge And Track (139.89mm,96.85mm)(143.04mm,96.85mm) on Top Overlay Waived by Dennis Hufnagel at 17.10.2022 09:45:00
    Waived Violation between Board Outline Clearance(Outline Edge): (Collision < 0.254mm) Between Board Edge And Track (141.145mm,16.81mm)(141.145mm,28.81mm) on Top Overlay Waived by Dennis Hufnagel at 17.10.2022 09:45:00
-   Waived Violation between Board Outline Clearance(Outline Edge): (Collision < 0.254mm) Between Board Edge And Track (141.145mm,2.51mm)(141.145mm,14.51mm) on Top Overlay Waived by Dennis Hufnagel at 17.10.2022 09:45:00
-   Waived Violation between Board Outline Clearance(Outline Edge): (Collision < 0.254mm) Between Board Edge And Track (141.145mm,31.11mm)(141.145mm,43.11mm) on Top Overlay Waived by Dennis Hufnagel at 17.10.2022 09:45:00
    Waived Violation between Board Outline Clearance(Outline Edge): (Collision < 0.254mm) Between Board Edge And Track (141.145mm,45.41mm)(141.145mm,57.41mm) on Top Overlay Waived by Dennis Hufnagel at 17.10.2022 09:45:00
    Waived Violation between Board Outline Clearance(Outline Edge): (Collision < 0.254mm) Between Board Edge And Track (141.145mm,59.71mm)(141.145mm,71.71mm) on Top Overlay Waived by Dennis Hufnagel at 17.10.2022 09:45:00
-   Waived Violation between Board Outline Clearance(Outline Edge): (Collision < 0.254mm) Between Board Edge And Track (141.146mm,14.26mm)(155.168mm,14.26mm) on Top Overlay Waived by Dennis Hufnagel at 17.10.2022 09:45:00
    Waived Violation between Board Outline Clearance(Outline Edge): (Collision < 0.254mm) Between Board Edge And Track (141.146mm,17.06mm)(155.169mm,17.06mm) on Top Overlay Waived by Dennis Hufnagel at 17.10.2022 09:45:00
-   Waived Violation between Board Outline Clearance(Outline Edge): (Collision < 0.254mm) Between Board Edge And Track (141.146mm,2.76mm)(155.169mm,2.76mm) on Top Overlay Waived by Dennis Hufnagel at 17.10.2022 09:45:00
    Waived Violation between Board Outline Clearance(Outline Edge): (Collision < 0.254mm) Between Board Edge And Track (141.146mm,28.56mm)(155.168mm,28.56mm) on Top Overlay Waived by Dennis Hufnagel at 17.10.2022 09:45:00
-   Waived Violation between Board Outline Clearance(Outline Edge): (Collision < 0.254mm) Between Board Edge And Track (141.146mm,31.36mm)(155.169mm,31.36mm) on Top Overlay Waived by Dennis Hufnagel at 17.10.2022 09:45:00
-   Waived Violation between Board Outline Clearance(Outline Edge): (Collision < 0.254mm) Between Board Edge And Track (141.146mm,42.86mm)(155.168mm,42.86mm) on Top Overlay Waived by Dennis Hufnagel at 17.10.2022 09:45:00
    Waived Violation between Board Outline Clearance(Outline Edge): (Collision < 0.254mm) Between Board Edge And Track (141.146mm,45.66mm)(155.169mm,45.66mm) on Top Overlay Waived by Dennis Hufnagel at 17.10.2022 09:45:00
    Waived Violation between Board Outline Clearance(Outline Edge): (Collision < 0.254mm) Between Board Edge And Track (141.146mm,57.16mm)(155.168mm,57.16mm) on Top Overlay Waived by Dennis Hufnagel at 17.10.2022 09:45:00
    Waived Violation between Board Outline Clearance(Outline Edge): (Collision < 0.254mm) Between Board Edge And Track (141.146mm,59.96mm)(155.169mm,59.96mm) on Top Overlay Waived by Dennis Hufnagel at 17.10.2022 09:45:00
@@ -152,13 +157,11 @@ Waived Violations Of Rule : Board Clearance Constraint (Gap=0mm) (All)
    Waived Violation between Board Outline Clearance(Outline Edge): (Collision < 0.254mm) Between Board Edge And Track (143.04mm,75.8mm)(143.04mm,92.2mm) on Bottom Overlay Waived by Dennis Hufnagel at 17.10.2022 09:45:00
    Waived Violation between Board Outline Clearance(Outline Edge): (Collision < 0.254mm) Between Board Edge And Track (143.04mm,80.45mm)(143.04mm,96.85mm) on Top Overlay Waived by Dennis Hufnagel at 17.10.2022 09:45:00
    Waived Violation between Board Outline Clearance(Outline Edge): (Collision < 0.254mm) Between Board Edge And Track (155.169mm,17.06mm)(155.169mm,28.56mm) on Top Overlay Waived by Dennis Hufnagel at 17.10.2022 09:45:00
-   Waived Violation between Board Outline Clearance(Outline Edge): (Collision < 0.254mm) Between Board Edge And Track (155.169mm,2.76mm)(155.169mm,14.26mm) on Top Overlay Waived by Dennis Hufnagel at 17.10.2022 09:45:00
-   Waived Violation between Board Outline Clearance(Outline Edge): (Collision < 0.254mm) Between Board Edge And Track (155.169mm,31.36mm)(155.169mm,42.86mm) on Top Overlay Waived by Dennis Hufnagel at 17.10.2022 09:45:00
    Waived Violation between Board Outline Clearance(Outline Edge): (Collision < 0.254mm) Between Board Edge And Track (155.169mm,45.66mm)(155.169mm,57.16mm) on Top Overlay Waived by Dennis Hufnagel at 17.10.2022 09:45:00
    Waived Violation between Board Outline Clearance(Outline Edge): (Collision < 0.254mm) Between Board Edge And Track (155.169mm,59.96mm)(155.169mm,71.46mm) on Top Overlay Waived by Dennis Hufnagel at 17.10.2022 09:45:00
-Waived Violations :36
+Waived Violations :24
 
 
-Violations Detected : 6
-Waived Violations : 38
+Violations Detected : 18
+Waived Violations : 26
 Time Elapsed        : 00:00:03
