@@ -203,6 +203,23 @@ GenerateClassCluster=0
 DocumentUniqueId=GXXXZSFL
 
 [Document10]
+DocumentPath=DC-Link-Caps.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=IRCRUMNP
+
+[Document11]
 DocumentPath=Temp_Measurements.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -219,7 +236,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KRDRCBGZ
 
-[Document11]
+[Document12]
 DocumentPath=..\altium_libraries\templates\output_jobs\UZ_Outputjob.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
