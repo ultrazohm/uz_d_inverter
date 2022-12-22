@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [UZ_D_Inverter.PcbDoc]
+   Generated File[UZ_D_Inverter_Rev02.TXT]
+   Generated File[UZ_D_Inverter_Rev02.LDP]
+   Generated File[UZ_D_Inverter_Rev02.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 16:18:47 On 22.12.2022
