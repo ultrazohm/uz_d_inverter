@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: UZ_D_Inverter_Rev02.GBR   23.12.2022  09:35:02
+Gerber File Extension Report For: UZ_D_Inverter_Rev02.GBR   23.12.2022  10:52:32
 ------------------------------------------------------------------------------------------
 
 
@@ -10,6 +10,10 @@ Layer Extension     Layer Description
 .GTP                Top Paste                               
 .GTS                Top Mask                                
 .GTL                Top Copper                              
+.G1                 Signal Layer 1                          
+.G2                 Signal Layer 2                          
+.G3                 Signal Layer 3                          
+.G4                 Signal Layer 4                          
 .GBL                Bottom Copper                           
 .GBS                Bottom Mask                             
 .GBP                Bottom Paste                            
