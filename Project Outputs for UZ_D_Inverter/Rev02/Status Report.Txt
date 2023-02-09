@@ -9,4 +9,4 @@ From  : PCB Document [UZ_D_Inverter.PcbDoc]
 Files Generated   : 3
 Documents Printed : 0
 
-Finished Output Generation At 11:07:32 On 27.12.2022
+Finished Output Generation At 11:23:07 On 09.02.2023
