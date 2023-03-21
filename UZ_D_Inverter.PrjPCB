@@ -275,7 +275,7 @@ UniqueID=BEA43099-09AD-4999-B90C-9EDD39F1A21C
 Description=Inverter_V1
 AllowFabrication=0
 ParameterCount=0
-VariationCount=20
+VariationCount=24
 Variation1=Designator=R3|UniqueId=\LGUSEKVC\JALPUBCU|Kind=1|AlternatePart= 
 Variation2=Designator=R2|UniqueId=\LGUSEKVC\ODXPHPQE|Kind=1|AlternatePart= 
 Variation3=Designator=C1|UniqueId=\WFULKYBY\SCJDDQLO|Kind=1|AlternatePart= 
@@ -296,10 +296,18 @@ Variation17=Designator=RG2C|UniqueId=\3UVWUVFXH\TGPCFBPR|Kind=1|AlternatePart=
 Variation18=Designator=RG1B|UniqueId=\2UVWUVFXH\DITAYWRA|Kind=1|AlternatePart= 
 Variation19=Designator=RG4C|UniqueId=\3UVWUVFXH\UXVNUKCF|Kind=1|AlternatePart= 
 Variation20=Designator=RG2B|UniqueId=\2UVWUVFXH\TGPCFBPR|Kind=1|AlternatePart= 
+Variation21=Designator=R4|UniqueId=\LGUSEKVC\GPIOAEOL|Kind=1|AlternatePart= 
+Variation22=Designator=R6|UniqueId=\LGUSEKVC\XPWKVSXW|Kind=1|AlternatePart= 
+Variation23=Designator=R8|UniqueId=\LGUSEKVC\UZRNSOOL|Kind=1|AlternatePart= 
+Variation24=Designator=R7|UniqueId=\LGUSEKVC\SVDNMPGI|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for UZ_D_Inverter\Design Rule Check - UZ_D_Inverter.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for UZ_D_Inverter\Rev02\BOM\UZ_D_Inverter_Variation.xlsx
 DItemRevisionGUID=
 
 [Parameter1]
