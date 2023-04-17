@@ -43,7 +43,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
-CurrentVariant=Inverter_V1
+CurrentVariant=Variant_V1
 
 [Preferences]
 PrefsVaultGUID=
@@ -135,23 +135,6 @@ GenerateClassCluster=0
 DocumentUniqueId=VQGWTXJI
 
 [Document6]
-DocumentPath=Reference.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=3
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=MRILPPRK
-
-[Document7]
 DocumentPath=Phase_Measurements.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -168,7 +151,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QKFXUWCT
 
-[Document8]
+[Document7]
 DocumentPath=Halfbridges.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -185,7 +168,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ZHVMMOEZ
 
-[Document9]
+[Document8]
 DocumentPath=DC-link.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -202,7 +185,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GXXXZSFL
 
-[Document10]
+[Document9]
 DocumentPath=DC-Link-Caps.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -219,7 +202,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IRCRUMNP
 
-[Document11]
+[Document10]
 DocumentPath=Temp_Measurements.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -236,7 +219,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KRDRCBGZ
 
-[Document12]
+[Document11]
 DocumentPath=..\altium_libraries\templates\output_jobs\UZ_Outputjob.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -253,7 +236,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document13]
+[Document12]
 DocumentPath=UZ_D_Inverter.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -271,35 +254,13 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [ProjectVariant1]
-UniqueID=BEA43099-09AD-4999-B90C-9EDD39F1A21C
-Description=Inverter_V1
+UniqueID=A8158936-3822-40B2-ADB3-7F612A99D01E
+Description=Variant_V1
 AllowFabrication=0
 ParameterCount=0
-VariationCount=24
-Variation1=Designator=R3|UniqueId=\LGUSEKVC\JALPUBCU|Kind=1|AlternatePart= 
-Variation2=Designator=R2|UniqueId=\LGUSEKVC\ODXPHPQE|Kind=1|AlternatePart= 
-Variation3=Designator=C1|UniqueId=\WFULKYBY\SCJDDQLO|Kind=1|AlternatePart= 
-Variation4=Designator=L11|UniqueId=\WFULKYBY\HQFLBXXJ|Kind=1|AlternatePart= 
-Variation5=Designator=C3|UniqueId=\WFULKYBY\QHCUSNTX|Kind=1|AlternatePart= 
-Variation6=Designator=C2|UniqueId=\WFULKYBY\GVZNWOMM|Kind=1|AlternatePart= 
-Variation7=Designator=C4|UniqueId=\WFULKYBY\IHIRAHHK|Kind=1|AlternatePart= 
-Variation8=Designator=U1|UniqueId=\WFULKYBY\JQGBEJNP|Kind=1|AlternatePart= 
-Variation9=Designator=RG1A|UniqueId=\1UVWUVFXH\DITAYWRA|Kind=1|AlternatePart= 
-Variation10=Designator=RG4B|UniqueId=\2UVWUVFXH\UXVNUKCF|Kind=1|AlternatePart= 
-Variation11=Designator=RG2A|UniqueId=\1UVWUVFXH\TGPCFBPR|Kind=1|AlternatePart= 
-Variation12=Designator=RG4A|UniqueId=\1UVWUVFXH\UXVNUKCF|Kind=1|AlternatePart= 
-Variation13=Designator=RG3C|UniqueId=\3UVWUVFXH\TDYFGDYF|Kind=1|AlternatePart= 
-Variation14=Designator=RG3B|UniqueId=\2UVWUVFXH\TDYFGDYF|Kind=1|AlternatePart= 
-Variation15=Designator=RG3A|UniqueId=\1UVWUVFXH\TDYFGDYF|Kind=1|AlternatePart= 
-Variation16=Designator=RG1C|UniqueId=\3UVWUVFXH\DITAYWRA|Kind=1|AlternatePart= 
-Variation17=Designator=RG2C|UniqueId=\3UVWUVFXH\TGPCFBPR|Kind=1|AlternatePart= 
-Variation18=Designator=RG1B|UniqueId=\2UVWUVFXH\DITAYWRA|Kind=1|AlternatePart= 
-Variation19=Designator=RG4C|UniqueId=\3UVWUVFXH\UXVNUKCF|Kind=1|AlternatePart= 
-Variation20=Designator=RG2B|UniqueId=\2UVWUVFXH\TGPCFBPR|Kind=1|AlternatePart= 
-Variation21=Designator=R4|UniqueId=\LGUSEKVC\GPIOAEOL|Kind=1|AlternatePart= 
-Variation22=Designator=R6|UniqueId=\LGUSEKVC\XPWKVSXW|Kind=1|AlternatePart= 
-Variation23=Designator=R8|UniqueId=\LGUSEKVC\UZRNSOOL|Kind=1|AlternatePart= 
-Variation24=Designator=R7|UniqueId=\LGUSEKVC\SVDNMPGI|Kind=1|AlternatePart= 
+VariationCount=2
+Variation1=Designator=R2|UniqueId=\LGUSEKVC\ODXPHPQE|Kind=1|AlternatePart= 
+Variation2=Designator=R3|UniqueId=\LGUSEKVC\JALPUBCU|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
@@ -588,6 +549,12 @@ OutputDocumentPath13=
 OutputVariantName13=
 OutputDefault13=0
 PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType14=PCBDrawing
+OutputName14=Draftsman
+OutputDocumentPath14=
+OutputVariantName14=[No Variations]
+OutputDefault14=0
+PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
