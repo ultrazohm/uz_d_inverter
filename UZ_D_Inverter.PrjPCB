@@ -258,9 +258,16 @@ UniqueID=A8158936-3822-40B2-ADB3-7F612A99D01E
 Description=Variant_V1
 AllowFabrication=0
 ParameterCount=0
-VariationCount=2
+VariationCount=9
 Variation1=Designator=R2|UniqueId=\LGUSEKVC\ODXPHPQE|Kind=1|AlternatePart= 
 Variation2=Designator=R3|UniqueId=\LGUSEKVC\JALPUBCU|Kind=1|AlternatePart= 
+Variation3=Designator=X2A|UniqueId=\1JWMNYTTU\RSCYGFJH|Kind=1|AlternatePart= 
+Variation4=Designator=X2B|UniqueId=\2JWMNYTTU\RSCYGFJH|Kind=1|AlternatePart= 
+Variation5=Designator=X2C|UniqueId=\3JWMNYTTU\RSCYGFJH|Kind=1|AlternatePart= 
+Variation6=Designator=X3A|UniqueId=\1JWMNYTTU\ZSAVVWTP|Kind=1|AlternatePart= 
+Variation7=Designator=X3B|UniqueId=\2JWMNYTTU\ZSAVVWTP|Kind=1|AlternatePart= 
+Variation8=Designator=X3C|UniqueId=\3JWMNYTTU\ZSAVVWTP|Kind=1|AlternatePart= 
+Variation9=Designator=J8|UniqueId=\LGUSEKVC\FHBUVTMA|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
@@ -310,7 +317,7 @@ AutoOpenFile=-1
 AutoOpenOutJob=-1
 
 [Generic_SmartPDFSettings]
-ProjectMode=0
+ProjectMode=-1
 ZoomPrecision=50
 AddNetsInformation=-1
 AddNetPins=-1
@@ -332,12 +339,12 @@ SCH_NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangl
 SCH_ShowNote=-1
 SCH_ShowNoteCollapsed=-1
 SCH_ExpandLogicalToPhysical=-1
-SCH_VariantName=Inverter_V1
+SCH_VariantName=Variant_V1
 SCH_ExpandComponentDesignators=-1
-SCH_ExpandNetlabels=0
-SCH_ExpandPorts=0
-SCH_ExpandSheetNumber=0
-SCH_ExpandDocumentNumber=0
+SCH_ExpandNetlabels=-1
+SCH_ExpandPorts=-1
+SCH_ExpandSheetNumber=-1
+SCH_ExpandDocumentNumber=-1
 SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=0
 Wir_PrintColor=0
@@ -2278,7 +2285,7 @@ ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Us
 [SmartPDF]
 PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration_Name1=OutputConfigurationParameter1
-Configuration_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView|DocumentPath=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc
+Configuration_Item1=DesignatorDisplayMode=Logical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView|DocumentPath=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc
 Configuration_Name2=OutputConfigurationParameter2
 Configuration_Item2=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=True|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=True|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=True|DocumentPath=E:\UltraZohm\uz_d_inverter\UZ_D_Inverter.PcbDoc
 Configuration_Name3=OutputConfigurationParameter3
