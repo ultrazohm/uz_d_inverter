@@ -1,12 +1,14 @@
-Output: NC Drill Files
-Type  : NC Drill
-From  : PCB Document [UZ_D_Inverter.PcbDoc]
-   Generated File[UZ_D_Inverter_Rev02.TXT]
-   Generated File[UZ_D_Inverter_Rev02.LDP]
-   Generated File[UZ_D_Inverter_Rev02.DRR]
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 09:45:25 On 09.01.2023
+
+Output: Bill of Materials
+Type  : BOM
+From  : Variant [[No Variations]] of Project [UZ_D_Inverter.PrjPCB]
+   Generated File[BOM_UZ_D_Inverter_[No Variations]_Rev02.xlsx]
 
 
-Files Generated   : 3
+Files Generated   : 1
 Documents Printed : 0
 
 Finished Output Generation At 11:23:07 On 09.02.2023
