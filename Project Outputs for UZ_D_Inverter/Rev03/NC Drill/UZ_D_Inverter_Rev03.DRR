@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: UZ_D_Inverter.PcbDoc   17.04.2023  13:32:52
+NCDrill File Report For: UZ_D_Inverter.PcbDoc   09.05.2023  15:37:30
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Copper to Bottom Copper
@@ -13,9 +13,9 @@ T3      35mil (0.899mm)                                           Round         
 T4      45mil (1.151mm)                                           Round             6         PTH        3.04inch (77.28mm)
 T5      53mil (1.349mm)                                           Round             20        PTH        6.76inch (171.60mm)
 T6      89mil (2.25mm)                                            Round             5         PTH        2.25inch (57.20mm)
-T7      126mil (3.2mm)                                            Round             4         PTH        4.01inch (101.95mm)
+T7      126mil (3.2mm)                                            Round             4         PTH        4.02inch (102.00mm)
 T8      126mil (3.2mm)                                            Round             4         NPTH       0.68inch (17.35mm)
 ----------------------------------------------------------------------------------------------------------------------------------
 Totals                                                                              667
 
-Total Processing Time (hh:mm:ss) : 00:00:00
+Total Processing Time (hh:mm:ss) : 00:00:01
