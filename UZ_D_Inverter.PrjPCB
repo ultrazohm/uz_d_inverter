@@ -284,24 +284,24 @@ DocumentPath=Project Outputs for UZ_D_Inverter\Rev02\BOM\UZ_D_Inverter_Variation
 DItemRevisionGUID=
 
 [Parameter1]
-Name=ProjectRevision
-Value=Rev03
+Name=Author
+Value=D. Hufnagel / A. Geiger
 
 [Parameter2]
-Name=ProjectDate
-Value=02/2024
+Name=AuthorParam
+Value=D. Hufnagel / A. Geiger
 
 [Parameter3]
 Name=Project
 Value=UZ_D_Inverter
 
 [Parameter4]
-Name=AuthorParam
-Value=D. Hufnagel / A. Geiger
+Name=ProjectDate
+Value=02/2024
 
 [Parameter5]
-Name=Author
-Value=D. Hufnagel / A. Geiger
+Name=ProjectRevision
+Value=Rev03
 
 [Configuration1]
 Name=Sources
@@ -1010,36 +1010,6 @@ OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-OutputType13=Ansoft Neutral
-OutputName13=Ansoft Neutral (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=HyperLynx
-OutputName14=HyperLynx (AutoPCB)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=Orcad v7 Capture Design
-OutputName15=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=P-CAD ASCII
-OutputName16=P-CAD ASCII (AutoPCB)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=P-CAD V16 Schematic Design
-OutputName17=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
-OutputType18=SiSoft
-OutputName18=SiSoft (AutoPCB)
-OutputDocumentPath18=
-OutputVariantName18=
-OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1753,9 +1723,9 @@ UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=user.DbLib/MOSFET - Gate Drivers
-ComponentDesignItemID0=2EDF7275KXUMA1
-ComponentSymbolReference0=2EDF7275KXUMA1
+ComponentLibraryIdentifier0=user.DbLib/Capacitors - SMD
+ComponentDesignItemID0=C0603C103F3GECTU
+ComponentSymbolReference0=Capacitor
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 FullReplace=1
@@ -1805,18 +1775,26 @@ ParameterName15=Operating Temperature
 ParameterUpdate15=1
 ParameterName16=PartID
 ParameterUpdate16=1
-ParameterName17=Stock number
+ParameterName17=Series
 ParameterUpdate17=1
-ParameterName18=Supplier 1
+ParameterName18=Stock number
 ParameterUpdate18=1
-ParameterName19=Supplier Part Number 1
+ParameterName19=Supplier 1
 ParameterUpdate19=1
-ParameterName20=Type
+ParameterName20=Supplier Part Number 1
 ParameterUpdate20=1
+ParameterName21=Tolerance
+ParameterUpdate21=1
+ParameterName22=Type
+ParameterUpdate22=1
+ParameterName23=Value
+ParameterUpdate23=1
+ParameterName24=Voltage Rating
+ParameterUpdate24=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=2EDF7275KXUMA1
+ModelName0=C_0603
 ModelUpdate0=1
 
 [DatabaseUpdateOptions]
