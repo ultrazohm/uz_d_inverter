@@ -301,24 +301,24 @@ DocumentPath=Project Outputs for UZ_D_Inverter\Rev02\BOM\UZ_D_Inverter_Variation
 DItemRevisionGUID=
 
 [Parameter1]
-Name=ProjectRevision
-Value=Rev03
+Name=Author
+Value=K. Patel / D. Hufnagel
 
 [Parameter2]
-Name=ProjectDate
-Value=02/2024
+Name=AuthorParam
+Value=K.Patel / D. Hufnagel
 
 [Parameter3]
 Name=Project
 Value=UZ_D_Inverter
 
 [Parameter4]
-Name=AuthorParam
-Value=D. Hufnagel / A. Geiger
+Name=ProjectDate
+Value=02/2024
 
 [Parameter5]
-Name=Author
-Value=D. Hufnagel / A. Geiger
+Name=ProjectRevision
+Value=Rev01
 
 [Configuration1]
 Name=Sources
