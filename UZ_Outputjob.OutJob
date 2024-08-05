@@ -18,7 +18,7 @@ RevisionNamingSchemeGUID=
 Name=UZ_Outputjob.OutJob
 Description=
 TargetOutputMedium=BOM
-VariantName=[No Variations]
+VariantName=Variant_V1
 VariantScope=1
 CurrentConfigurationName=
 TargetPrinter=Microsoft Print to PDF
@@ -168,7 +168,7 @@ OutputName6=Bill of Materials
 OutputCategory6=Report
 OutputDocumentPath6=
 OutputVariantName6=Standard
-OutputEnabled6=1
+OutputEnabled6=0
 OutputEnabled6_OutputMedium1=0
 OutputEnabled6_OutputMedium2=0
 OutputEnabled6_OutputMedium3=0
@@ -177,7 +177,7 @@ OutputEnabled6_OutputMedium5=0
 OutputEnabled6_OutputMedium6=0
 OutputEnabled6_OutputMedium7=0
 OutputEnabled6_OutputMedium8=0
-OutputEnabled6_OutputMedium9=1
+OutputEnabled6_OutputMedium9=0
 OutputDefault6=0
 PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration6_Name1=ColumnNameFormat
@@ -507,9 +507,9 @@ Configuration12_Item1=Record=PickPlaceView|Units=Metric|GenerateCSVFormat=True|G
 OutputType13=BOM_PartType
 OutputName13=BOM_JLC
 OutputCategory13=Report
-OutputDocumentPath13=[ActiveBOM Document]
+OutputDocumentPath13=
 OutputVariantName13=Standard
-OutputEnabled13=0
+OutputEnabled13=1
 OutputEnabled13_OutputMedium1=0
 OutputEnabled13_OutputMedium2=0
 OutputEnabled13_OutputMedium3=0
@@ -518,13 +518,13 @@ OutputEnabled13_OutputMedium5=1
 OutputEnabled13_OutputMedium6=0
 OutputEnabled13_OutputMedium7=0
 OutputEnabled13_OutputMedium8=0
-OutputEnabled13_OutputMedium9=0
+OutputEnabled13_OutputMedium9=1
 OutputDefault13=0
 PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4 (210 x 297 mm)|PaperIndex=9
 Configuration13_Name1=ColumnNameFormat
 Configuration13_Item1=CaptionAsName
 Configuration13_Name2=General
-Configuration13_Item2=OpenExported=False|AddToProject=True|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=C:\Users\Student\Desktop\Altium\altium_libraries\templates\BOM\BOM_Template_THN_JLCPCB.xlsx|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1602|FormHeight=969|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
+Configuration13_Item2=OpenExported=False|AddToProject=True|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=C:\Users\Student\Desktop\Altium\altium_libraries\templates\BOM\BOM_Template_THN_JLCPCB.xlsx|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=2048|FormHeight=1106|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
 Configuration13_Name3=GroupOrder
 Configuration13_Item3=Comment=True|MPN=True|Footprint=True
 Configuration13_Name4=OutputConfigurationParameter1
@@ -532,18 +532,18 @@ Configuration13_Item4=??
 Configuration13_Name5=SortOrder
 Configuration13_Item5=Designator=Up
 Configuration13_Name6=VisibleOrder
-Configuration13_Item6=Comment=116|Designator=107|Footprint=149|LCSC Part Number=100
+Configuration13_Item6=Comment=116|Designator=107|Footprint=149|LCSC Part Number=100|Manufacturer Part Number=100
 Configuration13_Name7=VisibleOrder_Base
 Configuration13_Item7=Line #=53|Comment=52|Description=79|Designator=77|Quantity=67|LCSC Part Number=115|Footprint=119|Manufacturer 1=99|Manufacturer Part Number 1=166|Manufacturer Lifecycle 1=143|Supplier 1=72|Supplier Part Number 1=139|Supplier Unit Price 1=123|Supplier Subtotal 1=116
 Configuration13_Name8=VisibleOrder_Consolidated
 Configuration13_Item8=Line #=100|Comment=100|Description=100|Designator=100|Quantity=100|Manufacturer 1=99|Manufacturer Part Number 1=166|Manufacturer Lifecycle 1=143|Supplier 1=72|Supplier Part Number 1=139|Supplier Unit Price 1=123|Supplier Subtotal 1=116
 Configuration13_Name9=VisibleOrder_Flat
-Configuration13_Item9=Comment=116|Designator=107|Footprint=149|LCSC Part Number=100
+Configuration13_Item9=Comment=116|Designator=107|Footprint=149|LCSC Part Number=100|Manufacturer Part Number=100
 
 [PublishSettings]
 OutputFilePath2=C:\Users\Public\Documents\Altium\Projects\Ordering_Test\Project Outputs for Ordering_Test\
 ReleaseManaged2=1
-OutputBasePath2=Project Outputs for UZ_D_Inverter
+OutputBasePath2=Project Outputs for Free Documents
 OutputPathMedia2=
 OutputPathMediaValue2=
 OutputPathOutputer2=
@@ -570,7 +570,7 @@ PDFACompliance2=Disabled
 PDFVersion2=Default
 OutputFilePath3=Project Outputs for Free Documents\ProjectRevision\
 ReleaseManaged3=1
-OutputBasePath3=Project Outputs for UZ_D_Inverter
+OutputBasePath3=Project Outputs for Free Documents
 OutputPathMedia3==ProjectRevision
 OutputPathMediaValue3==ProjectRevision
 OutputPathOutputer3=
@@ -597,7 +597,7 @@ PDFACompliance3=Disabled
 PDFVersion3=Default
 OutputFilePath4=C:\Users\Public\Documents\Altium\Projects\Ordering_Test\Project Outputs for Ordering_Test\ProjectRevision\
 ReleaseManaged4=1
-OutputBasePath4=Project Outputs for UZ_D_Inverter
+OutputBasePath4=Project Outputs for Free Documents
 OutputPathMedia4==ProjectRevision
 OutputPathMediaValue4==ProjectRevision
 OutputPathOutputer4=
@@ -624,7 +624,7 @@ PDFACompliance4=Disabled
 PDFVersion4=Default
 OutputFilePath5=Project Outputs for Free Documents\ProjectRevision\
 ReleaseManaged5=1
-OutputBasePath5=Project Outputs for UZ_D_Inverter
+OutputBasePath5=Project Outputs for Free Documents
 OutputPathMedia5==ProjectRevision
 OutputPathMediaValue5==ProjectRevision
 OutputPathOutputer5=[Output Custom]
@@ -637,7 +637,7 @@ OutputFileNameSpecial5=
 OpenOutput5=0
 OutputFilePath6=Project Outputs for Free Documents\
 ReleaseManaged6=1
-OutputBasePath6=Project Outputs for UZ_D_Inverter
+OutputBasePath6=Project Outputs for Free Documents
 OutputPathMedia6=
 OutputPathMediaValue6=
 OutputPathOutputer6=[Output Type]
@@ -650,7 +650,7 @@ OutputFileNameSpecial6=
 OpenOutput6=0
 OutputFilePath7=Project Outputs for Free Documents\ProjectRevision\
 ReleaseManaged7=1
-OutputBasePath7=Project Outputs for UZ_D_Inverter
+OutputBasePath7=Project Outputs for Free Documents
 OutputPathMedia7==ProjectRevision
 OutputPathMediaValue7==ProjectRevision
 OutputPathOutputer7=[Output Type]
@@ -663,7 +663,7 @@ OutputFileNameSpecial7=
 OpenOutput7=0
 OutputFilePath8=Project Outputs for Free Documents\ProjectRevision\
 ReleaseManaged8=1
-OutputBasePath8=Project Outputs for UZ_D_Inverter
+OutputBasePath8=Project Outputs for Free Documents
 OutputPathMedia8=='ProjectRevision'
 OutputPathMediaValue8=='ProjectRevision'
 OutputPathOutputer8=[Output Type]
@@ -674,7 +674,7 @@ OutputFileNameMulti8=='Pick_and_Place_'+ProjectName+'_'+VariantName+'_'+ProjectR
 UseOutputNameForMulti8=0
 OutputFileNameSpecial8=
 OpenOutput8=0
-OutputFilePath9=E:\UltraZohm\uz_d_inverter\Project Outputs for UZ_D_Inverter\Rev02\
+OutputFilePath9=E:\UltraZohm\uz_d_inverter\Project Outputs for UZ_D_Inverter\Rev04\
 ReleaseManaged9=1
 OutputBasePath9=Project Outputs for UZ_D_Inverter
 OutputPathMedia9==ProjectRevision
@@ -735,7 +735,7 @@ OpenGerberOutput8=0
 OpenNCDrillOutput8=0
 OpenIPCOutput8=0
 EnableReload8=0
-RelativeOutputPath9=E:\UltraZohm\uz_d_inverter\Project Outputs for UZ_D_Inverter\Rev02\
+RelativeOutputPath9=E:\UltraZohm\uz_d_inverter\Project Outputs for UZ_D_Inverter\Rev04\
 OpenOutputs9=0
 AddToProject9=0
 TimestampFolder9=0
