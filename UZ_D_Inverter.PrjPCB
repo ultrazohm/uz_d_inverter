@@ -302,7 +302,7 @@ DItemRevisionGUID=
 
 [Parameter1]
 Name=ProjectRevision
-Value=Rev05
+Value=Rev04
 
 [Parameter2]
 Name=ProjectDate
