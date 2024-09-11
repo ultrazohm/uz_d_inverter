@@ -221,7 +221,7 @@ GenerateClassCluster=0
 DocumentUniqueId=KRDRCBGZ
 
 [Document11]
-DocumentPath=..\altium_lib\templates\output_jobs\UZ_Outputjob.OutJob
+DocumentPath=UZ_Outputjob.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -238,23 +238,6 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document12]
-DocumentPath=UZ_D_Inverter.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document13]
 DocumentPath=2.5V_REF.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -306,7 +289,7 @@ Value=Rev04
 
 [Parameter2]
 Name=ProjectDate
-Value=02/2024
+Value=09/2024
 
 [Parameter3]
 Name=Project
@@ -654,6 +637,11 @@ OutputName3=Test Point Report
 OutputDocumentPath3=
 OutputVariantName3=[No Variations]
 OutputDefault3=0
+OutputType4=Wire Bonding Table
+OutputName4=Wire Bonding Table Report
+OutputDocumentPath4=
+OutputVariantName4=[No Variations]
+OutputDefault4=0
 
 [OutputGroup5]
 Name=Fabrication Outputs
@@ -929,6 +917,36 @@ OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
+OutputType13=Ansoft Neutral
+OutputName13=Ansoft Neutral (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=HyperLynx
+OutputName14=HyperLynx (AutoPCB)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=MathWorks
+OutputName15=MathWorks (AutoPCB)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=Orcad v7 Capture Design
+OutputName16=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=P-CAD ASCII
+OutputName17=P-CAD ASCII (AutoPCB)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
+OutputType18=P-CAD V16 Schematic Design
+OutputName18=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath18=
+OutputVariantName18=
+OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1330,6 +1348,7 @@ Type150=2
 Type151=2
 Type152=1
 Type153=1
+Type154=0
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
