@@ -284,24 +284,24 @@ DocumentPath=Project Outputs for UZ_D_Inverter\Rev02\BOM\UZ_D_Inverter_Variation
 DItemRevisionGUID=
 
 [Parameter1]
-Name=ProjectRevision
-Value=Rev04
+Name=Author
+Value=K. Patel / D. Hufnagel
 
 [Parameter2]
-Name=ProjectDate
-Value=09/2024
+Name=AuthorParam
+Value=K.Patel / D. Hufnagel
 
 [Parameter3]
 Name=Project
 Value=UZ_D_Inverter
 
 [Parameter4]
-Name=AuthorParam
-Value=K.Patel / D. Hufnagel
+Name=ProjectDate
+Value=09/2024
 
 [Parameter5]
-Name=Author
-Value=K. Patel / D. Hufnagel
+Name=ProjectRevision
+Value=Rev04
 
 [Configuration1]
 Name=Sources
@@ -637,11 +637,6 @@ OutputName3=Test Point Report
 OutputDocumentPath3=
 OutputVariantName3=[No Variations]
 OutputDefault3=0
-OutputType4=Wire Bonding Table
-OutputName4=Wire Bonding Table Report
-OutputDocumentPath4=
-OutputVariantName4=[No Variations]
-OutputDefault4=0
 
 [OutputGroup5]
 Name=Fabrication Outputs
@@ -917,36 +912,6 @@ OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-OutputType13=Ansoft Neutral
-OutputName13=Ansoft Neutral (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=HyperLynx
-OutputName14=HyperLynx (AutoPCB)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=MathWorks
-OutputName15=MathWorks (AutoPCB)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=Orcad v7 Capture Design
-OutputName16=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=P-CAD ASCII
-OutputName17=P-CAD ASCII (AutoPCB)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
-OutputType18=P-CAD V16 Schematic Design
-OutputName18=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath18=
-OutputVariantName18=
-OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1348,7 +1313,6 @@ Type150=2
 Type151=2
 Type152=1
 Type153=1
-Type154=0
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
