@@ -41,7 +41,7 @@ Used DCodes :
     D20
     D21
     D22
-    D24
+    D23
     D36
     D39
     D40
@@ -72,7 +72,7 @@ Used DCodes :
     D56
     D57
     D58
-    D60
+    D59
     D72
     D75
     D76
@@ -242,7 +242,7 @@ Used DCodes :
     D20
     D21
     D22
-    D24
+    D23
     D36
     D39
     D40
@@ -253,7 +253,6 @@ Used DCodes :
     D54
     D101
     D102
-    D103
     D104
     D105
     D106
@@ -284,8 +283,8 @@ Generating : Signal Layer 4
 Used DCodes :
     D10
     D101
-    D103
     D104
+    D105
     D106
     D110
     D114
@@ -305,28 +304,6 @@ Used DCodes :
     D10
     D15
     D101
-    D104
-    D106
-    D110
-    D111
-    D114
-    D115
-*************************************************************
-
-*************************************************************
-Generating : Signal Layer 2
-      File : UZ_D_Inverter_Rev04.G2
-
-    Adding Layer      : Signal Layer 2
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D10
-    D16
-    D101
-    D103
     D104
     D106
     D110
@@ -414,6 +391,28 @@ Used DCodes :
     D111
     D112
     D113
+    D114
+    D115
+*************************************************************
+
+*************************************************************
+Generating : Signal Layer 2
+      File : UZ_D_Inverter_Rev04.G2
+
+    Adding Layer      : Signal Layer 2
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D16
+    D101
+    D104
+    D105
+    D106
+    D110
+    D111
     D114
     D115
 *************************************************************
