@@ -1,0 +1,18 @@
+* D:\Elsys\uz_d_inverter\LTSpice_Simulation\CurrMeas.asc
+XU1 N003 N005 N002 N004 5v 0 o+ o- N001 5v ADA4940
+V1 5v 0 5
+V2 i+ 0 SINE(2.5 2 50)
+R3 o- o+ 1k
+R4 N003 N002 2k
+C2 N003 N002 22p
+R5 N005 N004 2k
+C3 N005 N004 22p
+C1 0 N001 1µ
+R6 N002 i+ 1k
+R7 N004 N006 1k
+V3 N006 0 2.5
+.tran 20m
+* .ac dec 100 1 100k
+.lib ADA4940.lib
+.backanno
+.end
