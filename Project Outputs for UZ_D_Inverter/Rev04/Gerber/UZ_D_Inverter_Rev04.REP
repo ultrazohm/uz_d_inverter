@@ -2,28 +2,132 @@
 FileName = UZ_D_Inverter_Rev04.GBR
 AutoAperture = True
 *************************************************************
-Generating : Board Shape
-      File : UZ_D_Inverter_Rev04.GM1
+Generating : Top Copper
+      File : UZ_D_Inverter_Rev04.GTL
 
-    Adding Layer      : Board Shape
+    Adding Layer      : Top Copper
 
-
-Used DCodes :
-    D11
-*************************************************************
-
-*************************************************************
-Generating : Bottom Overlay
-      File : UZ_D_Inverter_Rev04.GBO
-
-    Adding Layer      : Bottom Overlay
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D10
     D11
     D12
-    D18
+    D14
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D101
+    D102
+    D103
+    D104
+    D105
+    D106
+    D107
+    D108
+    D109
+    D110
+    D111
+    D112
+    D113
+    D114
+    D115
+*************************************************************
+
+*************************************************************
+Generating : Signal Layer 1
+      File : UZ_D_Inverter_Rev04.G1
+
+    Adding Layer      : Signal Layer 1
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D101
+    D105
+    D110
+    D111
+    D114
+    D115
+*************************************************************
+
+*************************************************************
+Generating : Signal Layer 2
+      File : UZ_D_Inverter_Rev04.G2
+
+    Adding Layer      : Signal Layer 2
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D14
+    D101
+    D103
+    D104
+    D106
+    D110
+    D111
+    D114
+    D115
+*************************************************************
+
+*************************************************************
+Generating : Signal Layer 3
+      File : UZ_D_Inverter_Rev04.G3
+
+    Adding Layer      : Signal Layer 3
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D14
+    D101
+    D103
+    D104
+    D105
+    D106
+    D110
+    D111
+    D114
+    D115
 *************************************************************
 
 *************************************************************
@@ -38,14 +142,14 @@ Generating : Bottom Paste
 
 
 Used DCodes :
-    D20
-    D21
     D22
-    D23
-    D36
+    D25
+    D26
+    D27
     D39
-    D40
-    D44
+    D41
+    D42
+    D45
     D48
     D52
     D53
@@ -58,10 +162,53 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Bottom Mask
-      File : UZ_D_Inverter_Rev04.GBS
+Generating : Bottom Overlay
+      File : UZ_D_Inverter_Rev04.GBO
 
-    Adding Layer      : Bottom Mask
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D10
+    D14
+    D15
+    D18
+*************************************************************
+
+*************************************************************
+Generating : Board Shape
+      File : UZ_D_Inverter_Rev04.GM1
+
+    Adding Layer      : Board Shape
+
+
+Used DCodes :
+    D15
+*************************************************************
+
+*************************************************************
+Generating : Signal Layer 4
+      File : UZ_D_Inverter_Rev04.G4
+
+    Adding Layer      : Signal Layer 4
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D14
+    D101
+    D103
+    D104
+    D106
+    D110
+    D114
+    D115
+*************************************************************
+
+*************************************************************
+Generating : Bottom Copper
+      File : UZ_D_Inverter_Rev04.GBL
 
     Adding Layer      : Bottom Copper
 
@@ -69,32 +216,109 @@ Generating : Bottom Mask
 
 
 Used DCodes :
-    D56
-    D57
-    D58
-    D59
-    D72
-    D75
-    D76
-    D78
-    D81
-    D85
-    D89
-    D90
-    D91
-    D93
-    D94
-    D95
-    D96
-    D97
-    D98
-    D99
-    D100
-    D121
-    D122
-    D123
-    D124
-    D125
+    D11
+    D12
+    D14
+    D22
+    D25
+    D26
+    D27
+    D39
+    D41
+    D42
+    D45
+    D48
+    D52
+    D53
+    D54
+    D101
+    D102
+    D103
+    D104
+    D106
+    D108
+    D109
+    D110
+    D111
+    D112
+    D113
+    D114
+    D115
+    D116
+    D117
+    D118
+    D119
+    D120
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : UZ_D_Inverter_Rev04.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : UZ_D_Inverter_Rev04.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Copper
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
 *************************************************************
 
 *************************************************************
@@ -157,78 +381,10 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Top Paste
-      File : UZ_D_Inverter_Rev04.GTP
+Generating : Bottom Mask
+      File : UZ_D_Inverter_Rev04.GBS
 
-    Adding Layer      : Top Paste
-
-    Adding Layer      : Top Copper
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D20
-    D21
-    D22
-    D23
-    D24
-    D25
-    D26
-    D27
-    D28
-    D29
-    D30
-    D31
-    D32
-    D33
-    D34
-    D35
-    D36
-    D37
-    D38
-    D39
-    D40
-    D41
-    D42
-    D43
-    D44
-    D45
-    D46
-    D47
-    D48
-    D49
-    D50
-    D51
-    D52
-    D53
-    D54
-    D55
-*************************************************************
-
-*************************************************************
-Generating : Top Overlay
-      File : UZ_D_Inverter_Rev04.GTO
-
-    Adding Layer      : Top Overlay
-
-
-Used DCodes :
-    D10
-    D11
-    D12
-    D13
-    D14
-    D15
-    D16
-    D17
-    D18
-    D19
-*************************************************************
-
-*************************************************************
-Generating : Bottom Copper
-      File : UZ_D_Inverter_Rev04.GBL
+    Adding Layer      : Bottom Mask
 
     Adding Layer      : Bottom Copper
 
@@ -236,185 +392,32 @@ Generating : Bottom Copper
 
 
 Used DCodes :
-    D10
-    D15
-    D16
-    D20
-    D21
-    D22
-    D23
-    D36
-    D39
-    D40
-    D44
-    D48
-    D52
-    D53
-    D54
-    D101
-    D102
-    D104
-    D105
-    D106
-    D108
-    D109
-    D110
-    D111
-    D112
-    D113
-    D114
-    D115
-    D116
-    D117
-    D118
-    D119
-    D120
-*************************************************************
-
-*************************************************************
-Generating : Signal Layer 4
-      File : UZ_D_Inverter_Rev04.G4
-
-    Adding Layer      : Signal Layer 4
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D10
-    D101
-    D104
-    D105
-    D106
-    D110
-    D114
-    D115
-*************************************************************
-
-*************************************************************
-Generating : Signal Layer 3
-      File : UZ_D_Inverter_Rev04.G3
-
-    Adding Layer      : Signal Layer 3
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D10
-    D15
-    D101
-    D104
-    D106
-    D110
-    D111
-    D114
-    D115
-*************************************************************
-
-*************************************************************
-Generating : Signal Layer 1
-      File : UZ_D_Inverter_Rev04.G1
-
-    Adding Layer      : Signal Layer 1
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D101
-    D110
-    D111
-    D114
-    D115
-*************************************************************
-
-*************************************************************
-Generating : Top Copper
-      File : UZ_D_Inverter_Rev04.GTL
-
-    Adding Layer      : Top Copper
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D10
-    D15
-    D16
-    D20
-    D21
-    D22
-    D23
-    D24
-    D25
-    D26
-    D27
-    D28
-    D29
-    D30
-    D31
-    D32
-    D33
-    D34
-    D35
-    D36
-    D37
-    D38
-    D39
-    D40
-    D41
-    D42
-    D43
-    D44
-    D45
-    D46
-    D47
-    D48
-    D49
-    D50
-    D51
-    D52
-    D53
-    D54
-    D55
-    D101
-    D102
-    D103
-    D104
-    D105
-    D106
-    D107
-    D108
-    D109
-    D110
-    D111
-    D112
-    D113
-    D114
-    D115
-*************************************************************
-
-*************************************************************
-Generating : Signal Layer 2
-      File : UZ_D_Inverter_Rev04.G2
-
-    Adding Layer      : Signal Layer 2
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D10
-    D16
-    D101
-    D104
-    D105
-    D106
-    D110
-    D111
-    D114
-    D115
+    D58
+    D61
+    D62
+    D63
+    D75
+    D77
+    D78
+    D79
+    D82
+    D85
+    D89
+    D90
+    D91
+    D93
+    D94
+    D95
+    D96
+    D97
+    D98
+    D99
+    D100
+    D121
+    D122
+    D123
+    D124
+    D125
 *************************************************************
 
 *************************************************************
