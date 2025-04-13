@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: UZ_D_Inverter.PcbDoc   18.09.2024  14:20:37
+NCDrill File Report For: UZ_D_Inverter.PcbDoc   19.09.2024  10:48:08
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Copper to Bottom Copper
@@ -7,7 +7,7 @@ ASCII RoundHoles File : UZ_D_Inverter_Rev04.TXT
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      10mil (0.249mm)                                           Round             695       PTH        87.92inch (2233.20mm)
+T1      10mil (0.249mm)                                           Round             694       PTH        88.25inch (2241.57mm)
 T2      20mil (0.5mm)                                             Round             146       PTH        38.88inch (987.51mm)
 T3      35mil (0.899mm)                                           Round             8         PTH        0.70inch (17.78mm)
 T4      45mil (1.151mm)                                           Round             3         PTH        2.34inch (59.45mm)
@@ -16,6 +16,6 @@ T6      89mil (2.25mm)                                            Round         
 T7      126mil (3.2mm)                                            Round             4         PTH        4.09inch (104.00mm)
 T8      126mil (3.2mm)                                            Round             4         NPTH       0.68inch (17.35mm)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              885
+Totals                                                                              884
 
 Total Processing Time (hh:mm:ss) : 00:00:01
