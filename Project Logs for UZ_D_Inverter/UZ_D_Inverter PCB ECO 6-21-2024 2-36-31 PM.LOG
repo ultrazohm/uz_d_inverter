@@ -1,0 +1,910 @@
+Removed Pin From Net: NetName=V_DC Pin=C40-1
+Removed Pin From Net: NetName=GND Pin=C40-2
+Removed Pin From Net: NetName=V_DC Pin=C40-3
+Removed Pin From Net: NetName=GND Pin=C40-4
+Removed Pin From Net: NetName=V_DC Pin=C40-5
+Removed Pin From Net: NetName=GND Pin=C40-6
+Removed Pin From Net: NetName=V_DC Pin=C41-1
+Removed Pin From Net: NetName=GND Pin=C41-2
+Removed Pin From Net: NetName=V_DC Pin=C41-3
+Removed Pin From Net: NetName=GND Pin=C41-4
+Removed Pin From Net: NetName=V_DC Pin=C41-5
+Removed Pin From Net: NetName=GND Pin=C41-6
+Removed Pin From Net: NetName=V_DC Pin=C42-1
+Removed Pin From Net: NetName=GND Pin=C42-2
+Removed Pin From Net: NetName=V_DC Pin=C42-3
+Removed Pin From Net: NetName=GND Pin=C42-4
+Removed Pin From Net: NetName=V_DC Pin=C42-5
+Removed Pin From Net: NetName=GND Pin=C42-6
+Removed Pin From Net: NetName=V_DC Pin=C43-1
+Removed Pin From Net: NetName=GND Pin=C43-2
+Removed Pin From Net: NetName=V_DC Pin=C43-3
+Removed Pin From Net: NetName=GND Pin=C43-4
+Removed Pin From Net: NetName=V_DC Pin=C43-5
+Removed Pin From Net: NetName=GND Pin=C43-6
+Removed Pin From Net: NetName=V_DC Pin=C44-1
+Removed Pin From Net: NetName=GND Pin=C44-2
+Removed Pin From Net: NetName=V_DC Pin=C44-3
+Removed Pin From Net: NetName=GND Pin=C44-4
+Removed Pin From Net: NetName=V_DC Pin=C44-5
+Removed Pin From Net: NetName=GND Pin=C44-6
+Removed Pin From Net: NetName=V_DC Pin=C45-1
+Removed Pin From Net: NetName=GND Pin=C45-2
+Removed Pin From Net: NetName=V_DC Pin=C45-3
+Removed Pin From Net: NetName=GND Pin=C45-4
+Removed Pin From Net: NetName=V_DC Pin=C45-5
+Removed Pin From Net: NetName=GND Pin=C45-6
+Removed Pin From Net: NetName=V_DC Pin=C46-1
+Removed Pin From Net: NetName=GND Pin=C46-2
+Removed Pin From Net: NetName=V_DC Pin=C46-3
+Removed Pin From Net: NetName=GND Pin=C46-4
+Removed Pin From Net: NetName=V_DC Pin=C46-5
+Removed Pin From Net: NetName=GND Pin=C46-6
+Removed Pin From Net: NetName=V_DC Pin=C47-1
+Removed Pin From Net: NetName=GND Pin=C47-2
+Removed Pin From Net: NetName=V_DC Pin=C47-3
+Removed Pin From Net: NetName=GND Pin=C47-4
+Removed Pin From Net: NetName=V_DC Pin=C47-5
+Removed Pin From Net: NetName=GND Pin=C47-6
+Removed Pin From Net: NetName=V_DC Pin=C48-1
+Removed Pin From Net: NetName=GND Pin=C48-2
+Removed Pin From Net: NetName=V_DC Pin=C48-3
+Removed Pin From Net: NetName=GND Pin=C48-4
+Removed Pin From Net: NetName=V_DC Pin=C48-5
+Removed Pin From Net: NetName=GND Pin=C48-6
+Removed Pin From Net: NetName=V_DC Pin=C49-1
+Removed Pin From Net: NetName=GND Pin=C49-2
+Removed Pin From Net: NetName=V_DC Pin=C49-3
+Removed Pin From Net: NetName=GND Pin=C49-4
+Removed Pin From Net: NetName=V_DC Pin=C49-5
+Removed Pin From Net: NetName=GND Pin=C49-6
+Removed Pin From Net: NetName=GND Pin=R86A-1
+Removed Pin From Net: NetName=GND Pin=R86B-1
+Removed Pin From Net: NetName=GND Pin=R86C-1
+Removed Pin From Net: NetName=1V5_REF Pin=R87A-2
+Removed Pin From Net: NetName=1V5_REF Pin=R87B-2
+Removed Pin From Net: NetName=1V5_REF Pin=R87C-2
+Removed Pin From Net: NetName=GND Pin=R89A-1
+Removed Pin From Net: NetName=GND Pin=R89B-1
+Removed Pin From Net: NetName=GND Pin=R89C-1
+Removed Pin From Net: NetName=1V5_REF Pin=R94-2
+Removed Pin From Net: NetName=GND Pin=R96-1
+Removed Pin From Net: NetName=GND Pin=R127-1
+Removed Pin From Net: NetName=GND_TOPA Pin=U2A-1
+Removed Pin From Net: NetName=5V_U2A Pin=U2A-3
+Removed Pin From Net: NetName=I_OUTA Pin=U2A-4
+Removed Pin From Net: NetName=1V5_REF Pin=U2A-5
+Removed Pin From Net: NetName=GND Pin=U2A-6
+Removed Pin From Net: NetName=PHASE_CONNECTOR_1 Pin=U2A-8
+Removed Pin From Net: NetName=GND_TOPB Pin=U2B-1
+Removed Pin From Net: NetName=5V_U2B Pin=U2B-3
+Removed Pin From Net: NetName=I_OUTB Pin=U2B-4
+Removed Pin From Net: NetName=1V5_REF Pin=U2B-5
+Removed Pin From Net: NetName=GND Pin=U2B-6
+Removed Pin From Net: NetName=PHASE_CONNECTOR_2 Pin=U2B-8
+Removed Pin From Net: NetName=GND_TOPC Pin=U2C-1
+Removed Pin From Net: NetName=5V_U2C Pin=U2C-3
+Removed Pin From Net: NetName=I_OUTC Pin=U2C-4
+Removed Pin From Net: NetName=1V5_REF Pin=U2C-5
+Removed Pin From Net: NetName=GND Pin=U2C-6
+Removed Pin From Net: NetName=PHASE_CONNECTOR_3 Pin=U2C-8
+Removed Pin From Net: NetName=GND Pin=U11-1
+Removed Pin From Net: NetName=5V_U11 Pin=U11-3
+Removed Pin From Net: NetName=NetR54_2 Pin=U11-4
+Removed Pin From Net: NetName=1V5_REF Pin=U11-5
+Removed Pin From Net: NetName=GND Pin=U11-6
+Removed Pin From Net: NetName=-V_DC Pin=U11-8
+Removed Member From Class: ClassName=DC-Link-Caps Member=C48
+Removed Member From Class: ClassName=DC-Link-Caps Member=C49
+Removed Member From Class: ClassName=PhaseMeasurements1 Member=R86A
+Removed Member From Class: ClassName=PhaseMeasurements2 Member=R86B
+Removed Member From Class: ClassName=PhaseMeasurements3 Member=R86C
+Removed Member From Class: ClassName=PhaseMeasurements1 Member=R87A
+Removed Member From Class: ClassName=PhaseMeasurements2 Member=R87B
+Removed Member From Class: ClassName=PhaseMeasurements3 Member=R87C
+Removed Member From Class: ClassName=PhaseMeasurements1 Member=R89A
+Removed Member From Class: ClassName=PhaseMeasurements2 Member=R89B
+Removed Member From Class: ClassName=PhaseMeasurements3 Member=R89C
+Removed Member From Class: ClassName=DC-link Member=R94
+Removed Member From Class: ClassName=DC-link Member=R95
+Removed Member From Class: ClassName=DC-link Member=R96
+Removed Member From Class: ClassName=PhaseMeasurements1 Member=R97A
+Removed Member From Class: ClassName=PhaseMeasurements2 Member=R97B
+Removed Member From Class: ClassName=PhaseMeasurements3 Member=R97C
+Removed Member From Class: ClassName=DC-link Member=R127
+Change Component Designator: OldDesignator=RG1A NewDesignator=RG_ON_1A
+Change Component Designator: OldDesignator=RG1B NewDesignator=RG_ON_1B
+Change Component Designator: OldDesignator=RG1C NewDesignator=RG_ON_1C
+Change Component Designator: OldDesignator=RG2A NewDesignator=RG_ON_2A
+Change Component Designator: OldDesignator=RG2B NewDesignator=RG_ON_2B
+Change Component Designator: OldDesignator=RG2C NewDesignator=RG_ON_2C
+Added Component: Designator=C40(CAPAE1300X1400N)
+Add component (AddParameter): Name = "Component Type"; Value = "Capacitor Al Electrolyt"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.lcsc.com/datasheet/lcsc_datasheet_2401161155_NCC-Nippon-Chemi-Con-EMHS101ARA111MKE0S_C2163387.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created from"; Value = "KPatel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created On"; Value = "6/7/2024 2:59:53 PM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "KE0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last Updated"; Value = "6/7/2024 2:59:53 PM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC Part Number"; Value = "C2163387"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Live Cycle Status"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "CHEMI-CON"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "EMHS101ARA111MKE0S"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40 - 125° C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartID"; Value = "149"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "MHS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock number"; Value = "not stored"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "661-EMHS101ARA111MKE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "C2163387"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "110 µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "100 VDC"; VariantName = "[No Variations]"
+Added Component: Designator=C41(CAPAE1300X1400N)
+Add component (AddParameter): Name = "Component Type"; Value = "Capacitor Al Electrolyt"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.lcsc.com/datasheet/lcsc_datasheet_2401161155_NCC-Nippon-Chemi-Con-EMHS101ARA111MKE0S_C2163387.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created from"; Value = "KPatel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created On"; Value = "6/7/2024 2:59:53 PM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "KE0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last Updated"; Value = "6/7/2024 2:59:53 PM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC Part Number"; Value = "C2163387"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Live Cycle Status"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "CHEMI-CON"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "EMHS101ARA111MKE0S"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40 - 125° C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartID"; Value = "149"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "MHS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock number"; Value = "not stored"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "661-EMHS101ARA111MKE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "C2163387"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "110 µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "100 VDC"; VariantName = "[No Variations]"
+Added Component: Designator=C42(CAPAE1300X1400N)
+Add component (AddParameter): Name = "Component Type"; Value = "Capacitor Al Electrolyt"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.lcsc.com/datasheet/lcsc_datasheet_2401161155_NCC-Nippon-Chemi-Con-EMHS101ARA111MKE0S_C2163387.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created from"; Value = "KPatel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created On"; Value = "6/7/2024 2:59:53 PM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "KE0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last Updated"; Value = "6/7/2024 2:59:53 PM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC Part Number"; Value = "C2163387"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Live Cycle Status"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "CHEMI-CON"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "EMHS101ARA111MKE0S"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40 - 125° C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartID"; Value = "149"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "MHS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock number"; Value = "not stored"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "661-EMHS101ARA111MKE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "C2163387"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "110 µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "100 VDC"; VariantName = "[No Variations]"
+Added Component: Designator=C43(CAPAE1300X1400N)
+Add component (AddParameter): Name = "Component Type"; Value = "Capacitor Al Electrolyt"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.lcsc.com/datasheet/lcsc_datasheet_2401161155_NCC-Nippon-Chemi-Con-EMHS101ARA111MKE0S_C2163387.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created from"; Value = "KPatel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created On"; Value = "6/7/2024 2:59:53 PM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "KE0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last Updated"; Value = "6/7/2024 2:59:53 PM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC Part Number"; Value = "C2163387"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Live Cycle Status"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "CHEMI-CON"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "EMHS101ARA111MKE0S"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40 - 125° C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartID"; Value = "149"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "MHS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock number"; Value = "not stored"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "661-EMHS101ARA111MKE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "C2163387"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "110 µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "100 VDC"; VariantName = "[No Variations]"
+Added Component: Designator=C44(CAPAE1300X1400N)
+Add component (AddParameter): Name = "Component Type"; Value = "Capacitor Al Electrolyt"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.lcsc.com/datasheet/lcsc_datasheet_2401161155_NCC-Nippon-Chemi-Con-EMHS101ARA111MKE0S_C2163387.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created from"; Value = "KPatel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created On"; Value = "6/7/2024 2:59:53 PM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "KE0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last Updated"; Value = "6/7/2024 2:59:53 PM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC Part Number"; Value = "C2163387"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Live Cycle Status"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "CHEMI-CON"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "EMHS101ARA111MKE0S"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40 - 125° C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartID"; Value = "149"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "MHS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock number"; Value = "not stored"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "661-EMHS101ARA111MKE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "C2163387"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "110 µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "100 VDC"; VariantName = "[No Variations]"
+Added Component: Designator=C45(CAPAE1300X1400N)
+Add component (AddParameter): Name = "Component Type"; Value = "Capacitor Al Electrolyt"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.lcsc.com/datasheet/lcsc_datasheet_2401161155_NCC-Nippon-Chemi-Con-EMHS101ARA111MKE0S_C2163387.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created from"; Value = "KPatel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created On"; Value = "6/7/2024 2:59:53 PM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "KE0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last Updated"; Value = "6/7/2024 2:59:53 PM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC Part Number"; Value = "C2163387"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Live Cycle Status"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "CHEMI-CON"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "EMHS101ARA111MKE0S"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40 - 125° C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartID"; Value = "149"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "MHS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock number"; Value = "not stored"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "661-EMHS101ARA111MKE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "C2163387"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "110 µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "100 VDC"; VariantName = "[No Variations]"
+Added Component: Designator=C46(CAPAE1300X1400N)
+Add component (AddParameter): Name = "Component Type"; Value = "Capacitor Al Electrolyt"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.lcsc.com/datasheet/lcsc_datasheet_2401161155_NCC-Nippon-Chemi-Con-EMHS101ARA111MKE0S_C2163387.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created from"; Value = "KPatel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created On"; Value = "6/7/2024 2:59:53 PM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "KE0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last Updated"; Value = "6/7/2024 2:59:53 PM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC Part Number"; Value = "C2163387"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Live Cycle Status"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "CHEMI-CON"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "EMHS101ARA111MKE0S"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40 - 125° C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartID"; Value = "149"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "MHS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock number"; Value = "not stored"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "661-EMHS101ARA111MKE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "C2163387"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "110 µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "100 VDC"; VariantName = "[No Variations]"
+Added Component: Designator=C47(CAPAE1300X1400N)
+Add component (AddParameter): Name = "Component Type"; Value = "Capacitor Al Electrolyt"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.lcsc.com/datasheet/lcsc_datasheet_2401161155_NCC-Nippon-Chemi-Con-EMHS101ARA111MKE0S_C2163387.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created from"; Value = "KPatel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created On"; Value = "6/7/2024 2:59:53 PM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "KE0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last Updated"; Value = "6/7/2024 2:59:53 PM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC Part Number"; Value = "C2163387"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Live Cycle Status"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "CHEMI-CON"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "EMHS101ARA111MKE0S"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40 - 125° C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartID"; Value = "149"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "MHS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock number"; Value = "not stored"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "661-EMHS101ARA111MKE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "C2163387"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "20%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "110 µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "100 VDC"; VariantName = "[No Variations]"
+Added Component: Designator=C92(C_1210_N)
+Add component (AddParameter): Name = "Component Type"; Value = "Capacitor 1210"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.de/datasheet/2/281/1/GRM32EC72A106KE05_01A-1988109.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created from"; Value = "DHufnagel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created On"; Value = "21.12.2022 14:25:08"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "1210"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last Updated"; Value = "21.02.2024 14:40:52"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC Part Number"; Value = "C576517"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Live Cycle Status"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "GRM32EC72A106KE05L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55 - 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartID"; Value = "118"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "GRM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock number"; Value = "not stored"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "81-GRM32EC72A106KE05"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "C576517"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10 %"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10 µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "100 VDC"; VariantName = "[No Variations]"
+Added Component: Designator=C93(C_1210_N)
+Add component (AddParameter): Name = "Component Type"; Value = "Capacitor 1210"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.de/datasheet/2/281/1/GRM32EC72A106KE05_01A-1988109.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created from"; Value = "DHufnagel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created On"; Value = "21.12.2022 14:25:08"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "1210"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last Updated"; Value = "21.02.2024 14:40:52"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC Part Number"; Value = "C576517"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Live Cycle Status"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "GRM32EC72A106KE05L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55 - 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartID"; Value = "118"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "GRM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock number"; Value = "not stored"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "81-GRM32EC72A106KE05"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "C576517"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10 %"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10 µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "100 VDC"; VariantName = "[No Variations]"
+Added Component: Designator=C94(C_1210_N)
+Add component (AddParameter): Name = "Component Type"; Value = "Capacitor 1210"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.de/datasheet/2/281/1/GRM32EC72A106KE05_01A-1988109.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created from"; Value = "DHufnagel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created On"; Value = "21.12.2022 14:25:08"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "1210"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last Updated"; Value = "21.02.2024 14:40:52"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC Part Number"; Value = "C576517"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Live Cycle Status"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "GRM32EC72A106KE05L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55 - 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartID"; Value = "118"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "GRM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock number"; Value = "not stored"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "81-GRM32EC72A106KE05"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "C576517"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10 %"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10 µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "100 VDC"; VariantName = "[No Variations]"
+Added Component: Designator=C95(C_1210_N)
+Add component (AddParameter): Name = "Component Type"; Value = "Capacitor 1210"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.de/datasheet/2/281/1/GRM32EC72A106KE05_01A-1988109.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created from"; Value = "DHufnagel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created On"; Value = "21.12.2022 14:25:08"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "1210"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last Updated"; Value = "21.02.2024 14:40:52"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC Part Number"; Value = "C576517"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Live Cycle Status"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "GRM32EC72A106KE05L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55 - 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartID"; Value = "118"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "GRM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock number"; Value = "not stored"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "81-GRM32EC72A106KE05"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "C576517"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10 %"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10 µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "100 VDC"; VariantName = "[No Variations]"
+Added Component: Designator=C96(C_1210_N)
+Add component (AddParameter): Name = "Component Type"; Value = "Capacitor 1210"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.de/datasheet/2/281/1/GRM32EC72A106KE05_01A-1988109.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created from"; Value = "DHufnagel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created On"; Value = "21.12.2022 14:25:08"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "1210"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last Updated"; Value = "21.02.2024 14:40:52"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC Part Number"; Value = "C576517"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Live Cycle Status"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "GRM32EC72A106KE05L"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-55 - 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartID"; Value = "118"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "GRM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock number"; Value = "not stored"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "81-GRM32EC72A106KE05"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "C576517"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10 %"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Capacitor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10 µF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "100 VDC"; VariantName = "[No Variations]"
+Added Component: Designator=DOFF_1A(SOD2513X110N)
+Add component (AddParameter): Name = "Component Type"; Value = "Schottky Diode"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.de/datasheet/2/196/Infineon_BAT165SERIES_DS_v01_01_en-1226035.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created from"; Value = "Kpatel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created On"; Value = "6/11/2024 12:14:10 PM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "SOD-323-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = "0.75 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "40V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last Updated"; Value = "6/11/2024 12:29:15 PM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Live Cycle Status"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Infineon Technologies"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "BAT165E6327HTSA1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-65 - 150 °C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartID"; Value = "16"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Reverse Current"; Value = "50uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "BAT165"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock number"; Value = "not stored"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "726-BAT165E6327HTSA1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Schotkey Diode"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "40V"; VariantName = "[No Variations]"
+Added Component: Designator=DOFF_1B(SOD2513X110N)
+Add component (AddParameter): Name = "Component Type"; Value = "Schottky Diode"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.de/datasheet/2/196/Infineon_BAT165SERIES_DS_v01_01_en-1226035.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created from"; Value = "Kpatel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created On"; Value = "6/11/2024 12:14:10 PM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "SOD-323-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = "0.75 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "40V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last Updated"; Value = "6/11/2024 12:29:15 PM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Live Cycle Status"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Infineon Technologies"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "BAT165E6327HTSA1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-65 - 150 °C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartID"; Value = "16"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Reverse Current"; Value = "50uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "BAT165"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock number"; Value = "not stored"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "726-BAT165E6327HTSA1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Schotkey Diode"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "40V"; VariantName = "[No Variations]"
+Added Component: Designator=DOFF_1C(SOD2513X110N)
+Add component (AddParameter): Name = "Component Type"; Value = "Schottky Diode"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.de/datasheet/2/196/Infineon_BAT165SERIES_DS_v01_01_en-1226035.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created from"; Value = "Kpatel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created On"; Value = "6/11/2024 12:14:10 PM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "SOD-323-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = "0.75 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "40V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last Updated"; Value = "6/11/2024 12:29:15 PM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Live Cycle Status"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Infineon Technologies"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "BAT165E6327HTSA1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-65 - 150 °C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartID"; Value = "16"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Reverse Current"; Value = "50uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "BAT165"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock number"; Value = "not stored"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "726-BAT165E6327HTSA1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Schotkey Diode"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "40V"; VariantName = "[No Variations]"
+Added Component: Designator=DOFF_2A(SOD2513X110N)
+Add component (AddParameter): Name = "Component Type"; Value = "Schottky Diode"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.de/datasheet/2/196/Infineon_BAT165SERIES_DS_v01_01_en-1226035.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created from"; Value = "Kpatel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created On"; Value = "6/11/2024 12:14:10 PM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "SOD-323-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = "0.75 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "40V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last Updated"; Value = "6/11/2024 12:29:15 PM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Live Cycle Status"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Infineon Technologies"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "BAT165E6327HTSA1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-65 - 150 °C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartID"; Value = "16"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Reverse Current"; Value = "50uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "BAT165"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock number"; Value = "not stored"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "726-BAT165E6327HTSA1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Schotkey Diode"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "40V"; VariantName = "[No Variations]"
+Added Component: Designator=DOFF_2B(SOD2513X110N)
+Add component (AddParameter): Name = "Component Type"; Value = "Schottky Diode"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.de/datasheet/2/196/Infineon_BAT165SERIES_DS_v01_01_en-1226035.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created from"; Value = "Kpatel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created On"; Value = "6/11/2024 12:14:10 PM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "SOD-323-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = "0.75 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "40V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last Updated"; Value = "6/11/2024 12:29:15 PM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Live Cycle Status"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Infineon Technologies"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "BAT165E6327HTSA1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-65 - 150 °C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartID"; Value = "16"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Reverse Current"; Value = "50uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "BAT165"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock number"; Value = "not stored"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "726-BAT165E6327HTSA1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Schotkey Diode"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "40V"; VariantName = "[No Variations]"
+Added Component: Designator=DOFF_2C(SOD2513X110N)
+Add component (AddParameter): Name = "Component Type"; Value = "Schottky Diode"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.de/datasheet/2/196/Infineon_BAT165SERIES_DS_v01_01_en-1226035.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created from"; Value = "Kpatel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created On"; Value = "6/11/2024 12:14:10 PM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "SOD-323-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Current"; Value = "0.75 A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Forward Voltage"; Value = "40V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last Updated"; Value = "6/11/2024 12:29:15 PM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Live Cycle Status"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Infineon Technologies"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "BAT165E6327HTSA1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-65 - 150 °C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartID"; Value = "16"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Reverse Current"; Value = "50uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "BAT165"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock number"; Value = "not stored"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "726-BAT165E6327HTSA1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Schotkey Diode"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "40V"; VariantName = "[No Variations]"
+Added Component: Designator=RG_OFF_1A(RES 1206_3216)
+Add component (AddParameter): Name = "Component Type"; Value = "SMD resistor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.de/datasheet/2/427/rcce3-2897337.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created from"; Value = "DHufnagel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created On"; Value = "17.04.2023 08:20:25"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last Updated"; Value = "21.02.2024 16:25:01"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC Part Number"; Value = "C2759134"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Live Cycle Status"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "RCC120647R0FKEA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartID"; Value = "263"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock number"; Value = "Labor SMD Container"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "71-RCC120647R0FKEA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Resistor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "47R"; VariantName = "[No Variations]"
+Added Component: Designator=RG_OFF_1B(RES 1206_3216)
+Add component (AddParameter): Name = "Component Type"; Value = "SMD resistor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.de/datasheet/2/427/rcce3-2897337.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created from"; Value = "DHufnagel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created On"; Value = "17.04.2023 08:20:25"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last Updated"; Value = "21.02.2024 16:25:01"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC Part Number"; Value = "C2759134"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Live Cycle Status"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "RCC120647R0FKEA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartID"; Value = "263"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock number"; Value = "Labor SMD Container"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "71-RCC120647R0FKEA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Resistor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "47R"; VariantName = "[No Variations]"
+Added Component: Designator=RG_OFF_1C(RES 1206_3216)
+Add component (AddParameter): Name = "Component Type"; Value = "SMD resistor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.de/datasheet/2/427/rcce3-2897337.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created from"; Value = "DHufnagel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created On"; Value = "17.04.2023 08:20:25"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last Updated"; Value = "21.02.2024 16:25:01"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC Part Number"; Value = "C2759134"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Live Cycle Status"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "RCC120647R0FKEA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartID"; Value = "263"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock number"; Value = "Labor SMD Container"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "71-RCC120647R0FKEA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Resistor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "47R"; VariantName = "[No Variations]"
+Added Component: Designator=RG_OFF_2A(RES 1206_3216)
+Add component (AddParameter): Name = "Component Type"; Value = "SMD resistor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.de/datasheet/2/427/rcce3-2897337.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created from"; Value = "DHufnagel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created On"; Value = "17.04.2023 08:20:25"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last Updated"; Value = "21.02.2024 16:25:01"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC Part Number"; Value = "C2759134"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Live Cycle Status"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "RCC120647R0FKEA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartID"; Value = "263"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock number"; Value = "Labor SMD Container"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "71-RCC120647R0FKEA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Resistor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "47R"; VariantName = "[No Variations]"
+Added Component: Designator=RG_OFF_2B(RES 1206_3216)
+Add component (AddParameter): Name = "Component Type"; Value = "SMD resistor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.de/datasheet/2/427/rcce3-2897337.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created from"; Value = "DHufnagel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created On"; Value = "17.04.2023 08:20:25"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last Updated"; Value = "21.02.2024 16:25:01"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC Part Number"; Value = "C2759134"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Live Cycle Status"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "RCC120647R0FKEA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartID"; Value = "263"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock number"; Value = "Labor SMD Container"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "71-RCC120647R0FKEA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Resistor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "47R"; VariantName = "[No Variations]"
+Added Component: Designator=RG_OFF_2C(RES 1206_3216)
+Add component (AddParameter): Name = "Component Type"; Value = "SMD resistor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.de/datasheet/2/427/rcce3-2897337.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created from"; Value = "DHufnagel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created On"; Value = "17.04.2023 08:20:25"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "1206"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last Updated"; Value = "21.02.2024 16:25:01"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC Part Number"; Value = "C2759134"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Live Cycle Status"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "RCC120647R0FKEA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartID"; Value = "263"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock number"; Value = "Labor SMD Container"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "71-RCC120647R0FKEA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Resistor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "47R"; VariantName = "[No Variations]"
+Added Component: Designator=U2A(SOP65P490X110-8N)
+Add component (AddParameter): Name = "Channels"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "CMRR"; Value = "89dB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Component Type"; Value = "Current Sense Amplifier"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.ti.com/lit/ds/symlink/ina241b.pdf?ts=1718088817119&ref_url=https%253A%252F%252Fwww.mouser.de%252F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created from"; Value = "KPatel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created On"; Value = "6/11/2024 7:53:55 AM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "VSSOP-8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GBP"; Value = "100MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last Updated"; Value = "6/11/2024 7:54:20 AM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Live Cycle Status"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "INA241B2IDGKR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40 - 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartID"; Value = "29"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "INA241B2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock number"; Value = "not stored"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "595-INA241B2IDGKR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Current Sense Amplifier"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "Rail-to-Rail"; VariantName = "[No Variations]"
+Added Component: Designator=U2B(SOP65P490X110-8N)
+Add component (AddParameter): Name = "Channels"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "CMRR"; Value = "89dB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Component Type"; Value = "Current Sense Amplifier"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.ti.com/lit/ds/symlink/ina241b.pdf?ts=1718088817119&ref_url=https%253A%252F%252Fwww.mouser.de%252F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created from"; Value = "KPatel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created On"; Value = "6/11/2024 7:53:55 AM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "VSSOP-8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GBP"; Value = "100MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last Updated"; Value = "6/11/2024 7:54:20 AM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Live Cycle Status"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "INA241B2IDGKR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40 - 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartID"; Value = "29"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "INA241B2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock number"; Value = "not stored"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "595-INA241B2IDGKR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Current Sense Amplifier"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "Rail-to-Rail"; VariantName = "[No Variations]"
+Added Component: Designator=U2C(SOP65P490X110-8N)
+Add component (AddParameter): Name = "Channels"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "CMRR"; Value = "89dB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Component Type"; Value = "Current Sense Amplifier"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.ti.com/lit/ds/symlink/ina241b.pdf?ts=1718088817119&ref_url=https%253A%252F%252Fwww.mouser.de%252F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created from"; Value = "KPatel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created On"; Value = "6/11/2024 7:53:55 AM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "VSSOP-8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GBP"; Value = "100MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last Updated"; Value = "6/11/2024 7:54:20 AM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Live Cycle Status"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "INA241B2IDGKR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40 - 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartID"; Value = "29"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "INA241B2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock number"; Value = "not stored"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "595-INA241B2IDGKR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Current Sense Amplifier"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "Rail-to-Rail"; VariantName = "[No Variations]"
+Added Component: Designator=U11(SOP65P490X110-8N)
+Add component (AddParameter): Name = "Channels"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "CMRR"; Value = "89dB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Component Type"; Value = "Current Sense Amplifier"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.ti.com/lit/ds/symlink/ina241b.pdf?ts=1718088817119&ref_url=https%253A%252F%252Fwww.mouser.de%252F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created from"; Value = "KPatel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created On"; Value = "6/11/2024 7:53:55 AM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "VSSOP-8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GBP"; Value = "100MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last Updated"; Value = "6/11/2024 7:54:20 AM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Live Cycle Status"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "INA241B2IDGKR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40 - 125°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartID"; Value = "29"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "INA241B2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock number"; Value = "not stored"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "595-INA241B2IDGKR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Current Sense Amplifier"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "Rail-to-Rail"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=V_DC Pin=C40-1
+Added Pin To Net: NetName=GND Pin=C40-2
+Added Pin To Net: NetName=V_DC Pin=C41-1
+Added Pin To Net: NetName=GND Pin=C41-2
+Added Pin To Net: NetName=V_DC Pin=C42-1
+Added Pin To Net: NetName=GND Pin=C42-2
+Added Pin To Net: NetName=V_DC Pin=C43-1
+Added Pin To Net: NetName=GND Pin=C43-2
+Added Pin To Net: NetName=V_DC Pin=C44-1
+Added Pin To Net: NetName=GND Pin=C44-2
+Added Pin To Net: NetName=V_DC Pin=C45-1
+Added Pin To Net: NetName=GND Pin=C45-2
+Added Pin To Net: NetName=V_DC Pin=C46-1
+Added Pin To Net: NetName=GND Pin=C46-2
+Added Pin To Net: NetName=V_DC Pin=C47-1
+Added Pin To Net: NetName=GND Pin=C47-2
+Added Pin To Net: NetName=GND Pin=C92-1
+Added Pin To Net: NetName=V_DC Pin=C92-2
+Added Pin To Net: NetName=GND Pin=C93-1
+Added Pin To Net: NetName=V_DC Pin=C93-2
+Added Pin To Net: NetName=GND Pin=C94-1
+Added Pin To Net: NetName=V_DC Pin=C94-2
+Added Pin To Net: NetName=GND Pin=C95-1
+Added Pin To Net: NetName=V_DC Pin=C95-2
+Added Pin To Net: NetName=GND Pin=C96-1
+Added Pin To Net: NetName=V_DC Pin=C96-2
+Added Pin To Net: NetName=PWM_out_HA Pin=DOFF_1A-2
+Added Pin To Net: NetName=PWM_out_HB Pin=DOFF_1B-2
+Added Pin To Net: NetName=PWM_out_HC Pin=DOFF_1C-2
+Added Pin To Net: NetName=PWM_out_LA Pin=DOFF_2A-2
+Added Pin To Net: NetName=PWM_out_LB Pin=DOFF_2B-2
+Added Pin To Net: NetName=PWM_out_LC Pin=DOFF_2C-2
+Added Pin To Net: NetName=GATE_HIGHA Pin=RG_OFF_1A-1
+Added Pin To Net: NetName=GATE_HIGHB Pin=RG_OFF_1B-1
+Added Pin To Net: NetName=GATE_HIGHC Pin=RG_OFF_1C-1
+Added Pin To Net: NetName=GATE_LOWA Pin=RG_OFF_2A-1
+Added Pin To Net: NetName=GATE_LOWB Pin=RG_OFF_2B-1
+Added Pin To Net: NetName=GATE_LOWC Pin=RG_OFF_2C-1
+Added Pin To Net: NetName=PHASE_CONNECTOR_1 Pin=U2A-1
+Added Pin To Net: NetName=GND Pin=U2A-2
+Added Pin To Net: NetName=1V5_REF Pin=U2A-3
+Added Pin To Net: NetName=GND Pin=U2A-4
+Added Pin To Net: NetName=I_OUTA Pin=U2A-5
+Added Pin To Net: NetName=5V_U2A Pin=U2A-6
+Added Pin To Net: NetName=1V5_REF Pin=U2A-7
+Added Pin To Net: NetName=GND_TOPA Pin=U2A-8
+Added Pin To Net: NetName=PHASE_CONNECTOR_2 Pin=U2B-1
+Added Pin To Net: NetName=GND Pin=U2B-2
+Added Pin To Net: NetName=1V5_REF Pin=U2B-3
+Added Pin To Net: NetName=GND Pin=U2B-4
+Added Pin To Net: NetName=I_OUTB Pin=U2B-5
+Added Pin To Net: NetName=5V_U2B Pin=U2B-6
+Added Pin To Net: NetName=1V5_REF Pin=U2B-7
+Added Pin To Net: NetName=GND_TOPB Pin=U2B-8
+Added Pin To Net: NetName=PHASE_CONNECTOR_3 Pin=U2C-1
+Added Pin To Net: NetName=GND Pin=U2C-2
+Added Pin To Net: NetName=1V5_REF Pin=U2C-3
+Added Pin To Net: NetName=GND Pin=U2C-4
+Added Pin To Net: NetName=I_OUTC Pin=U2C-5
+Added Pin To Net: NetName=5V_U2C Pin=U2C-6
+Added Pin To Net: NetName=1V5_REF Pin=U2C-7
+Added Pin To Net: NetName=GND_TOPC Pin=U2C-8
+Added Pin To Net: NetName=-V_DC Pin=U11-1
+Added Pin To Net: NetName=GND Pin=U11-2
+Added Pin To Net: NetName=1V5_REF Pin=U11-3
+Added Pin To Net: NetName=GND Pin=U11-4
+Added Pin To Net: NetName=NetR54_2 Pin=U11-5
+Added Pin To Net: NetName=5V_U11 Pin=U11-6
+Added Pin To Net: NetName=1V5_REF Pin=U11-7
+Added Pin To Net: NetName=GND Pin=U11-8
+Added Pin To Net: NetName=NetDOFF_1A_1 Pin=DOFF_1A-1
+Added Pin To Net: NetName=NetDOFF_1A_1 Pin=RG_OFF_1A-2
+Added Net: Name=NetDOFF_1A_1
+Added Pin To Net: NetName=NetDOFF_1B_1 Pin=DOFF_1B-1
+Added Pin To Net: NetName=NetDOFF_1B_1 Pin=RG_OFF_1B-2
+Added Net: Name=NetDOFF_1B_1
+Added Pin To Net: NetName=NetDOFF_1C_1 Pin=DOFF_1C-1
+Added Pin To Net: NetName=NetDOFF_1C_1 Pin=RG_OFF_1C-2
+Added Net: Name=NetDOFF_1C_1
+Added Pin To Net: NetName=NetDOFF_2A_1 Pin=DOFF_2A-1
+Added Pin To Net: NetName=NetDOFF_2A_1 Pin=RG_OFF_2A-2
+Added Net: Name=NetDOFF_2A_1
+Added Pin To Net: NetName=NetDOFF_2B_1 Pin=DOFF_2B-1
+Added Pin To Net: NetName=NetDOFF_2B_1 Pin=RG_OFF_2B-2
+Added Net: Name=NetDOFF_2B_1
+Added Pin To Net: NetName=NetDOFF_2C_1 Pin=DOFF_2C-1
+Added Pin To Net: NetName=NetDOFF_2C_1 Pin=RG_OFF_2C-2
+Added Net: Name=NetDOFF_2C_1
+Added Member To Class: ClassName=DC-Link-Caps Member=Component C92 10 µF
+Added Member To Class: ClassName=DC-Link-Caps Member=Component C93 10 µF
+Added Member To Class: ClassName=DC-Link-Caps Member=Component C94 10 µF
+Added Member To Class: ClassName=DC-Link-Caps Member=Component C95 10 µF
+Added Member To Class: ClassName=DC-Link-Caps Member=Component C96 10 µF
+Added Member To Class: ClassName=Halfbridge1 Member=Component DOFF_1A (DOFF_1) BAT165E6327HTSA1
+Added Member To Class: ClassName=Halfbridge2 Member=Component DOFF_1B (DOFF_1) BAT165E6327HTSA1
+Added Member To Class: ClassName=Halfbridge3 Member=Component DOFF_1C (DOFF_1) BAT165E6327HTSA1
+Added Member To Class: ClassName=Halfbridge1 Member=Component DOFF_2A (DOFF_2) BAT165E6327HTSA1
+Added Member To Class: ClassName=Halfbridge2 Member=Component DOFF_2B (DOFF_2) BAT165E6327HTSA1
+Added Member To Class: ClassName=Halfbridge3 Member=Component DOFF_2C (DOFF_2) BAT165E6327HTSA1
+Added Member To Class: ClassName=Halfbridge1 Member=Component RG_OFF_1A (RG_OFF_1) 12R
+Added Member To Class: ClassName=Halfbridge2 Member=Component RG_OFF_1B (RG_OFF_1) 12R
+Added Member To Class: ClassName=Halfbridge3 Member=Component RG_OFF_1C (RG_OFF_1) 12R
+Added Member To Class: ClassName=Halfbridge1 Member=Component RG_OFF_2A (RG_OFF_2) 12R
+Added Member To Class: ClassName=Halfbridge2 Member=Component RG_OFF_2B (RG_OFF_2) 12R
+Added Member To Class: ClassName=Halfbridge3 Member=Component RG_OFF_2C (RG_OFF_2) 12R
+Added Rule: Name=Schematic Supply Nets
+Added Rule: Name=Schematic Supply Nets_1
+Added Rule: Name=Schematic Supply Nets_2
+Added Rule: Name=Schematic Supply Nets_3
+Added Rule: Name=Schematic Supply Nets_4
+Added Rule: Name=Schematic Supply Nets_5
+Added Rule: Name=Schematic Supply Nets_6
+Added Rule: Name=Schematic Supply Nets_7
+Added Rule: Name=Schematic Supply Nets_8
+Added Rule: Name=Schematic Supply Nets_9

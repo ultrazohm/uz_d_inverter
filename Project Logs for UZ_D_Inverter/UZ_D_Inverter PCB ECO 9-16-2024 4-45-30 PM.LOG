@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=-V_DC Pin=U11-1
+Removed Pin From Net: NetName=GND Pin=U11-8
+Added Pin To Net: NetName=GND Pin=U11-1
+Added Pin To Net: NetName=-V_DC Pin=U11-8

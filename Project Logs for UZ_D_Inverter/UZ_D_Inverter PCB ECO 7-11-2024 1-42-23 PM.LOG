@@ -1,0 +1,17 @@
+Change Component Designator: OldDesignator=  NewDesignator=R39C
+Added Component: Designator=TP17(TP_1mm)
+Add component (AddParameter): Name = "Component Type"; Value = "Testpoint"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created"; Value = "2018_06_25_AGeiger"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created from"; Value = "AGeiger"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created On"; Value = "20.09.2022 13:14:57"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last Updated"; Value = "20.09.2022 13:15:39"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Live Cycle Status"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "NULL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "NULL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartID"; Value = "9"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "NULL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "NULL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Testpoint"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "Testpoint 1mm"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=TP17-1
+Added Member To Class: ClassName=X1 Member=Component TP17 Testpoint 1mm

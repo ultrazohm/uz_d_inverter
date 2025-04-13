@@ -1,0 +1,135 @@
+Removed Pin From Net: NetName=NetC11A_2 Pin=U?A-1
+Removed Pin From Net: NetName=VCOM_1A Pin=U?A-2
+Removed Pin From Net: NetName=5V_U3A Pin=U?A-3
+Removed Pin From Net: NetName=IA_P Pin=U?A-4
+Removed Pin From Net: NetName=IA_N Pin=U?A-5
+Removed Pin From Net: NetName=GND Pin=U?A-6
+Removed Pin From Net: NetName=5V_U3A Pin=U?A-7
+Removed Pin From Net: NetName=NetC12A_2 Pin=U?A-8
+Removed Pin From Net: NetName=NetC11B_2 Pin=U?B-1
+Removed Pin From Net: NetName=VCOM_1B Pin=U?B-2
+Removed Pin From Net: NetName=5V_U3B Pin=U?B-3
+Removed Pin From Net: NetName=IB_P Pin=U?B-4
+Removed Pin From Net: NetName=IB_N Pin=U?B-5
+Removed Pin From Net: NetName=GND Pin=U?B-6
+Removed Pin From Net: NetName=5V_U3B Pin=U?B-7
+Removed Pin From Net: NetName=NetC12B_2 Pin=U?B-8
+Removed Pin From Net: NetName=NetC11C_2 Pin=U?C-1
+Removed Pin From Net: NetName=VCOM_1C Pin=U?C-2
+Removed Pin From Net: NetName=5V_U3C Pin=U?C-3
+Removed Pin From Net: NetName=IC_P Pin=U?C-4
+Removed Pin From Net: NetName=IC_N Pin=U?C-5
+Removed Pin From Net: NetName=GND Pin=U?C-6
+Removed Pin From Net: NetName=5V_U3C Pin=U?C-7
+Removed Pin From Net: NetName=NetC12C_2 Pin=U?C-8
+Removed Member From Class: ClassName=PhaseMeasurements1 Member=U?A
+Removed Member From Class: ClassName=PhaseMeasurements2 Member=U?B
+Removed Member From Class: ClassName=PhaseMeasurements3 Member=U?C
+Added Component: Designator=U3A(SOT127P600X175-8N)
+Add component (AddParameter): Name = "Channels"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "CMRR"; Value = "86 dB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Component Type"; Value = "Differential Amplifier"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.de/datasheet/2/609/ada4940_1_4940_2-2955874.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created from"; Value = "DHufnagel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created On"; Value = "18.08.2022 12:53:27"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "SOIC-8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GBP"; Value = "260 MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last Updated"; Value = "18.08.2022 13:04:18"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC Part Number"; Value = "C730049"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Live Cycle Status"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Analog Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "ADA4940-1ARZ-R7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40 - 105°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartID"; Value = "14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "ADA4940-1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock number"; Value = "not stored"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "584-ADA4940-1ARZ"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "505-ADA4940-1ARZ-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 3"; Value = "C730049"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Differential Amplifiers"; VariantName = "[No Variations]"
+Added Component: Designator=U3B(SOT127P600X175-8N)
+Add component (AddParameter): Name = "Channels"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "CMRR"; Value = "86 dB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Component Type"; Value = "Differential Amplifier"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.de/datasheet/2/609/ada4940_1_4940_2-2955874.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created from"; Value = "DHufnagel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created On"; Value = "18.08.2022 12:53:27"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "SOIC-8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GBP"; Value = "260 MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last Updated"; Value = "18.08.2022 13:04:18"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC Part Number"; Value = "C730049"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Live Cycle Status"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Analog Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "ADA4940-1ARZ-R7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40 - 105°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartID"; Value = "14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "ADA4940-1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock number"; Value = "not stored"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "584-ADA4940-1ARZ"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "505-ADA4940-1ARZ-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 3"; Value = "C730049"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Differential Amplifiers"; VariantName = "[No Variations]"
+Added Component: Designator=U3C(SOT127P600X175-8N)
+Add component (AddParameter): Name = "Channels"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "CMRR"; Value = "86 dB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Component Type"; Value = "Differential Amplifier"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.de/datasheet/2/609/ada4940_1_4940_2-2955874.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created from"; Value = "DHufnagel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created On"; Value = "18.08.2022 12:53:27"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "SOIC-8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GBP"; Value = "260 MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last Updated"; Value = "18.08.2022 13:04:18"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC Part Number"; Value = "C730049"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Live Cycle Status"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Analog Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "ADA4940-1ARZ-R7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40 - 105°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartID"; Value = "14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "ADA4940-1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock number"; Value = "not stored"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "584-ADA4940-1ARZ"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "505-ADA4940-1ARZ-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 3"; Value = "C730049"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Differential Amplifiers"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC11A_2 Pin=U3A-1
+Added Pin To Net: NetName=VCOM_1A Pin=U3A-2
+Added Pin To Net: NetName=5V_U3A Pin=U3A-3
+Added Pin To Net: NetName=IA_P Pin=U3A-4
+Added Pin To Net: NetName=IA_N Pin=U3A-5
+Added Pin To Net: NetName=GND Pin=U3A-6
+Added Pin To Net: NetName=5V_U3A Pin=U3A-7
+Added Pin To Net: NetName=NetC12A_2 Pin=U3A-8
+Added Pin To Net: NetName=NetC11B_2 Pin=U3B-1
+Added Pin To Net: NetName=VCOM_1B Pin=U3B-2
+Added Pin To Net: NetName=5V_U3B Pin=U3B-3
+Added Pin To Net: NetName=IB_P Pin=U3B-4
+Added Pin To Net: NetName=IB_N Pin=U3B-5
+Added Pin To Net: NetName=GND Pin=U3B-6
+Added Pin To Net: NetName=5V_U3B Pin=U3B-7
+Added Pin To Net: NetName=NetC12B_2 Pin=U3B-8
+Added Pin To Net: NetName=NetC11C_2 Pin=U3C-1
+Added Pin To Net: NetName=VCOM_1C Pin=U3C-2
+Added Pin To Net: NetName=5V_U3C Pin=U3C-3
+Added Pin To Net: NetName=IC_P Pin=U3C-4
+Added Pin To Net: NetName=IC_N Pin=U3C-5
+Added Pin To Net: NetName=GND Pin=U3C-6
+Added Pin To Net: NetName=5V_U3C Pin=U3C-7
+Added Pin To Net: NetName=NetC12C_2 Pin=U3C-8
+Added Member To Class: ClassName=PhaseMeasurements1 Member=Component U3A (U3) ADA4940-1ARZ-R7
+Added Member To Class: ClassName=PhaseMeasurements2 Member=Component U3B (U3) ADA4940-1ARZ-R7
+Added Member To Class: ClassName=PhaseMeasurements3 Member=Component U3C (U3) ADA4940-1ARZ-R7

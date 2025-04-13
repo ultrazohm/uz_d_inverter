@@ -1,0 +1,14 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 4:04:47 PM On 9/11/2024
+
+Output: BOM_JLC
+Type  : BOM
+From  : Variant [Variant_V1] of Project [UZ_D_Inverter.PrjPCB]
+   Generated File[BOM_JLC_UZ_D_Inverter_Variant_V1_Rev04.xlsx]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 4:05:00 PM On 9/11/2024

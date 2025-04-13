@@ -1,0 +1,29 @@
+Change component parameters: Designator = "C8" ("C8"); Footprint = "C_1210_N"; UniqueID = "\WSRAOAQF\ZUKKETWD" ("\WSRAOAQF\ZUKKETWD")
+Change component parameters (AddParameter): Name = "Component Type"; Value = "Capacitor 1210"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.de/datasheet/2/281/1/GRM32EC72A106KE05_01A-1988109.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Created from"; Value = "DHufnagel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Created On"; Value = "21.12.2022 14:25:08"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Device Package"; Value = "1210"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Last Updated"; Value = "21.02.2024 14:40:52"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LCSC Part Number"; Value = "C576517"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Live Cycle Status"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Murata Electronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "GRM32EC72A106KE05L"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Type"; Value = "SMD"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-55 - 125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartID"; Value = "118"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series"; Value = "GRM"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Stock number"; Value = "not stored"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 2"; Value = "LCSC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "81-GRM32EC72A106KE05"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 2"; Value = "C576517"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10 %"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Capacitor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "10 µF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "100 VDC"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=2.5V_REF Member=Component C7 2.2 uF
+Added Member To Class: ClassName=2.5V_REF Member=Component C8 10 µF
+Added Member To Class: ClassName=PhaseMeasurements3 Member=Component C82C (C82) 100 nF
+Added Member To Class: ClassName=PhaseMeasurements1 Member=Component R22A (R22) 110k

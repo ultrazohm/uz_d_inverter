@@ -1,0 +1,186 @@
+Removed Pin From Net: NetName=GND_TOPA Pin=C64A-1
+Removed Pin From Net: NetName=12V_TOPA Pin=C64A-2
+Removed Pin From Net: NetName=GND_TOPB Pin=C64B-1
+Removed Pin From Net: NetName=12V_TOPB Pin=C64B-2
+Removed Pin From Net: NetName=GND_TOPC Pin=C64C-1
+Removed Pin From Net: NetName=12V_TOPC Pin=C64C-2
+Removed Pin From Net: NetName=GND Pin=C65A-1
+Removed Pin From Net: NetName=12V_BOTA Pin=C65A-2
+Removed Pin From Net: NetName=GND Pin=C65B-1
+Removed Pin From Net: NetName=12V_BOTB Pin=C65B-2
+Removed Pin From Net: NetName=GND Pin=C65C-1
+Removed Pin From Net: NetName=12V_BOTC Pin=C65C-2
+Change Component Footprint: Designator=C64A Old Footprint=C_0603 New Footprint=C_0805
+Change Component Footprint: Designator=C64B Old Footprint=C_0603 New Footprint=C_0805
+Change Component Footprint: Designator=C64C Old Footprint=C_0603 New Footprint=C_0805
+Change Component Footprint: Designator=C65A Old Footprint=C_0603 New Footprint=C_0805
+Change Component Footprint: Designator=C65B Old Footprint=C_0603 New Footprint=C_0805
+Change Component Footprint: Designator=C65C Old Footprint=C_0603 New Footprint=C_0805
+Change Component Comment : Designator=C64A Old Comment=2.2 uF New Comment=4.7 µF
+Change Component Comment : Designator=C64B Old Comment=2.2 uF New Comment=4.7 µF
+Change Component Comment : Designator=C64C Old Comment=2.2 uF New Comment=4.7 µF
+Change Component Comment : Designator=C65A Old Comment=2.2 uF New Comment=4.7 µF
+Change Component Comment : Designator=C65B Old Comment=2.2 uF New Comment=4.7 µF
+Change Component Comment : Designator=C65C Old Comment=2.2 uF New Comment=4.7 µF
+Change component parameters: Designator = "C64A" ("C64"); Footprint = "C_0603"; UniqueID = "\1UVWUVFXH\KYAXOIWL" ("\1UVWUVFXH\KYAXOIWL")
+Change component parameters (AddParameter): Name = "Component Type"; Value = "Capacitor 0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Created from"; Value = "MGremer"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Created On"; Value = "20.12.2020 13:54:13"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Device Package"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Last Updated"; Value = "21.02.2024 14:33:48"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LCSC Part Number"; Value = "C437557"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Live Cycle Status"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "TDK"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "C2012X7R1H475K125AC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Type"; Value = "SMD"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-55 - 125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartID"; Value = "15"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series"; Value = "C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Stock number"; Value = "Labor SMD Container"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 2"; Value = "LCSC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "810-C2012X7R475K125C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 2"; Value = "C437557"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10 %"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Capacitor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "4.7 µF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "50 VDC"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C64B" ("C64"); Footprint = "C_0603"; UniqueID = "\2UVWUVFXH\KYAXOIWL" ("\2UVWUVFXH\KYAXOIWL")
+Change component parameters (AddParameter): Name = "Component Type"; Value = "Capacitor 0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Created from"; Value = "MGremer"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Created On"; Value = "20.12.2020 13:54:13"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Device Package"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Last Updated"; Value = "21.02.2024 14:33:48"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LCSC Part Number"; Value = "C437557"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Live Cycle Status"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "TDK"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "C2012X7R1H475K125AC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Type"; Value = "SMD"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-55 - 125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartID"; Value = "15"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series"; Value = "C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Stock number"; Value = "Labor SMD Container"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 2"; Value = "LCSC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "810-C2012X7R475K125C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 2"; Value = "C437557"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10 %"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Capacitor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "4.7 µF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "50 VDC"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C64C" ("C64"); Footprint = "C_0603"; UniqueID = "\3UVWUVFXH\KYAXOIWL" ("\3UVWUVFXH\KYAXOIWL")
+Change component parameters (AddParameter): Name = "Component Type"; Value = "Capacitor 0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Created from"; Value = "MGremer"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Created On"; Value = "20.12.2020 13:54:13"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Device Package"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Last Updated"; Value = "21.02.2024 14:33:48"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LCSC Part Number"; Value = "C437557"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Live Cycle Status"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "TDK"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "C2012X7R1H475K125AC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Type"; Value = "SMD"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-55 - 125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartID"; Value = "15"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series"; Value = "C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Stock number"; Value = "Labor SMD Container"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 2"; Value = "LCSC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "810-C2012X7R475K125C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 2"; Value = "C437557"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10 %"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Capacitor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "4.7 µF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "50 VDC"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C65A" ("C65"); Footprint = "C_0603"; UniqueID = "\1UVWUVFXH\PNHAUUPX" ("\1UVWUVFXH\PNHAUUPX")
+Change component parameters (AddParameter): Name = "Component Type"; Value = "Capacitor 0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Created from"; Value = "MGremer"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Created On"; Value = "20.12.2020 13:54:13"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Device Package"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Last Updated"; Value = "21.02.2024 14:33:48"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LCSC Part Number"; Value = "C437557"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Live Cycle Status"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "TDK"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "C2012X7R1H475K125AC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Type"; Value = "SMD"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-55 - 125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartID"; Value = "15"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series"; Value = "C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Stock number"; Value = "Labor SMD Container"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 2"; Value = "LCSC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "810-C2012X7R475K125C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 2"; Value = "C437557"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10 %"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Capacitor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "4.7 µF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "50 VDC"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C65B" ("C65"); Footprint = "C_0603"; UniqueID = "\2UVWUVFXH\PNHAUUPX" ("\2UVWUVFXH\PNHAUUPX")
+Change component parameters (AddParameter): Name = "Component Type"; Value = "Capacitor 0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Created from"; Value = "MGremer"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Created On"; Value = "20.12.2020 13:54:13"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Device Package"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Last Updated"; Value = "21.02.2024 14:33:48"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LCSC Part Number"; Value = "C437557"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Live Cycle Status"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "TDK"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "C2012X7R1H475K125AC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Type"; Value = "SMD"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-55 - 125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartID"; Value = "15"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series"; Value = "C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Stock number"; Value = "Labor SMD Container"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 2"; Value = "LCSC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "810-C2012X7R475K125C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 2"; Value = "C437557"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10 %"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Capacitor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "4.7 µF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "50 VDC"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C65C" ("C65"); Footprint = "C_0603"; UniqueID = "\3UVWUVFXH\PNHAUUPX" ("\3UVWUVFXH\PNHAUUPX")
+Change component parameters (AddParameter): Name = "Component Type"; Value = "Capacitor 0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Created from"; Value = "MGremer"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Created On"; Value = "20.12.2020 13:54:13"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Device Package"; Value = "0805"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Last Updated"; Value = "21.02.2024 14:33:48"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LCSC Part Number"; Value = "C437557"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Live Cycle Status"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "TDK"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "C2012X7R1H475K125AC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Type"; Value = "SMD"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-55 - 125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartID"; Value = "15"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series"; Value = "C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Stock number"; Value = "Labor SMD Container"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 2"; Value = "LCSC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "810-C2012X7R475K125C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 2"; Value = "C437557"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "10 %"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Capacitor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "4.7 µF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "50 VDC"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=12V_TOPA Pin=C64A-1
+Added Pin To Net: NetName=GND_TOPA Pin=C64A-2
+Added Pin To Net: NetName=12V_TOPB Pin=C64B-1
+Added Pin To Net: NetName=GND_TOPB Pin=C64B-2
+Added Pin To Net: NetName=12V_TOPC Pin=C64C-1
+Added Pin To Net: NetName=GND_TOPC Pin=C64C-2
+Added Pin To Net: NetName=12V_BOTA Pin=C65A-1
+Added Pin To Net: NetName=GND Pin=C65A-2
+Added Pin To Net: NetName=12V_BOTB Pin=C65B-1
+Added Pin To Net: NetName=GND Pin=C65B-2
+Added Pin To Net: NetName=12V_BOTC Pin=C65C-1
+Added Pin To Net: NetName=GND Pin=C65C-2

@@ -1,0 +1,35 @@
+Removed Pin From Net: NetName=GND Pin=U14-2
+Removed Pin From Net: NetName=5V_PER Pin=U14-3
+Removed Pin From Net: NetName=5V_PER Pin=U14-4
+Removed Pin From Net: NetName=2V5_REF Pin=U14-5
+Removed Member From Class: ClassName=2.5V_REF Member=U14
+Added Component: Designator=U?(SOT95P280X145-5N)
+Add component (AddParameter): Name = "Component Type"; Value = "Voltage Reference"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=https://www.ti.com/lit/gpn/ref4132-q1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created from"; Value = "DHufnagel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created On"; Value = "08.07.2022 12:48:56"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last Updated"; Value = "08.07.2022 12:59:37"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Live Cycle Status"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "REF4132B25DBVRQ1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40 - 125 °C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartID"; Value = "10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "-40 - 125 °C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock number"; Value = "not stored"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "595-REF4132B25DBVRQ1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "296-REF4132B25DBVRQ1CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Voltage Reference"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "2.5 V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=U?-2
+Added Pin To Net: NetName=5V_PER Pin=U?-3
+Added Pin To Net: NetName=5V_PER Pin=U?-4
+Added Pin To Net: NetName=2V5_REF Pin=U?-5
+Added Member To Class: ClassName=PhaseMeasurements1 Member=Component U4A (U4) ADA4940-1ARZ-R7
+Added Member To Class: ClassName=PhaseMeasurements2 Member=Component U4B (U4) ADA4940-1ARZ-R7
+Added Member To Class: ClassName=PhaseMeasurements3 Member=Component U4C (U4) ADA4940-1ARZ-R7
+Added Member To Class: ClassName=2.5V_REF Member=Component U? REF4132B25DBVRQ1

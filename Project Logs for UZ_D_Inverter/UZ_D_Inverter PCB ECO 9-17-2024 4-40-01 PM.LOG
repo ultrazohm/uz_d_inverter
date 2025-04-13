@@ -1,0 +1,110 @@
+Removed Pin From Net: NetName=NetC18A_2 Pin=U6A-1
+Removed Pin From Net: NetName=GND Pin=U6A-2
+Removed Pin From Net: NetName=NetR33A_2 Pin=U6A-3
+Removed Pin From Net: NetName=NetR34A_1 Pin=U6A-4
+Removed Pin From Net: NetName=NetC19A_2 Pin=U6A-5
+Removed Pin From Net: NetName=TEMP_H1 Pin=U6A-6
+Removed Pin From Net: NetName=NetC18B_2 Pin=U6B-1
+Removed Pin From Net: NetName=GND Pin=U6B-2
+Removed Pin From Net: NetName=NetR33B_2 Pin=U6B-3
+Removed Pin From Net: NetName=NetR34B_1 Pin=U6B-4
+Removed Pin From Net: NetName=NetC19B_2 Pin=U6B-5
+Removed Pin From Net: NetName=TEMP_H2 Pin=U6B-6
+Removed Pin From Net: NetName=NetC18C_2 Pin=U6C-1
+Removed Pin From Net: NetName=GND Pin=U6C-2
+Removed Pin From Net: NetName=NetR33C_2 Pin=U6C-3
+Removed Pin From Net: NetName=NetR34C_1 Pin=U6C-4
+Removed Pin From Net: NetName=NetC19C_2 Pin=U6C-5
+Removed Pin From Net: NetName=TEMP_H3 Pin=U6C-6
+Removed Member From Class: ClassName=TempMeasurements1 Member=U6A
+Removed Member From Class: ClassName=TempMeasurements2 Member=U6B
+Removed Member From Class: ClassName=TempMeasurements3 Member=U6C
+Added Component: Designator=U?A(SOT95P280X100-6N)
+Add component (AddParameter): Name = "Component Type"; Value = "Switching Controllers"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.de/datasheet/2/609/LTC6992-1-6992-2-6992-3-6992-4-1852873.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created from"; Value = "AGeiger"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created On"; Value = "20.07.2022 14:30:26"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "SOT-23-6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last Updated"; Value = "14.06.2023 22:16:01"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC Part Number"; Value = "C581034"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Live Cycle Status"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Analog Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "LTC6992CS6-1#TRMPBF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "0 to 70 °C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartID"; Value = "11"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock number"; Value = "not stored"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "584-C6992CS6-1TRMPBF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "C581034"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Switching Controller"; VariantName = "[No Variations]"
+Added Component: Designator=U?B(SOT95P280X100-6N)
+Add component (AddParameter): Name = "Component Type"; Value = "Switching Controllers"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.de/datasheet/2/609/LTC6992-1-6992-2-6992-3-6992-4-1852873.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created from"; Value = "AGeiger"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created On"; Value = "20.07.2022 14:30:26"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "SOT-23-6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last Updated"; Value = "14.06.2023 22:16:01"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC Part Number"; Value = "C581034"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Live Cycle Status"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Analog Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "LTC6992CS6-1#TRMPBF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "0 to 70 °C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartID"; Value = "11"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock number"; Value = "not stored"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "584-C6992CS6-1TRMPBF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "C581034"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Switching Controller"; VariantName = "[No Variations]"
+Added Component: Designator=U?C(SOT95P280X100-6N)
+Add component (AddParameter): Name = "Component Type"; Value = "Switching Controllers"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.mouser.de/datasheet/2/609/LTC6992-1-6992-2-6992-3-6992-4-1852873.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created from"; Value = "AGeiger"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Created On"; Value = "20.07.2022 14:30:26"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "SOT-23-6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Last Updated"; Value = "14.06.2023 22:16:01"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC Part Number"; Value = "C581034"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Live Cycle Status"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Analog Devices"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "LTC6992CS6-1#TRMPBF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "0 to 70 °C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartID"; Value = "11"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock number"; Value = "not stored"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "584-C6992CS6-1TRMPBF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "C581034"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Switching Controller"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC18A_2 Pin=U?A-1
+Added Pin To Net: NetName=GND Pin=U?A-2
+Added Pin To Net: NetName=NetR33A_2 Pin=U?A-3
+Added Pin To Net: NetName=NetR34A_1 Pin=U?A-4
+Added Pin To Net: NetName=NetC19A_2 Pin=U?A-5
+Added Pin To Net: NetName=TEMP_H1 Pin=U?A-6
+Added Pin To Net: NetName=NetC18B_2 Pin=U?B-1
+Added Pin To Net: NetName=GND Pin=U?B-2
+Added Pin To Net: NetName=NetR33B_2 Pin=U?B-3
+Added Pin To Net: NetName=NetR34B_1 Pin=U?B-4
+Added Pin To Net: NetName=NetC19B_2 Pin=U?B-5
+Added Pin To Net: NetName=TEMP_H2 Pin=U?B-6
+Added Pin To Net: NetName=NetC18C_2 Pin=U?C-1
+Added Pin To Net: NetName=GND Pin=U?C-2
+Added Pin To Net: NetName=NetR33C_2 Pin=U?C-3
+Added Pin To Net: NetName=NetR34C_1 Pin=U?C-4
+Added Pin To Net: NetName=NetC19C_2 Pin=U?C-5
+Added Pin To Net: NetName=TEMP_H3 Pin=U?C-6
+Added Member To Class: ClassName=2.5V_REF Member=Component C7 2.2 uF
+Added Member To Class: ClassName=PhaseMeasurements1 Member=Component U4A (U4) ADA4940-1ARZ-R7
+Added Member To Class: ClassName=PhaseMeasurements2 Member=Component U4B (U4) ADA4940-1ARZ-R7
+Added Member To Class: ClassName=PhaseMeasurements3 Member=Component U4C (U4) ADA4940-1ARZ-R7
+Added Member To Class: ClassName=2.5V_REF Member=Component U14 REF4132B25DBVRQ1
+Added Member To Class: ClassName=TempMeasurements1 Member=Component U?A (U?) LTC6992CS6-1#TRMPBF
+Added Member To Class: ClassName=TempMeasurements2 Member=Component U?B (U?) LTC6992CS6-1#TRMPBF
+Added Member To Class: ClassName=TempMeasurements3 Member=Component U?C (U?) LTC6992CS6-1#TRMPBF

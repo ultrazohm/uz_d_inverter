@@ -1,0 +1,4 @@
+Change Component Designator: OldDesignator=3 NewDesignator=U7C
+Added Member To Class: ClassName=Halfbridge1 Member=Component DOFF_1A (DOFF_1) BAT165E6327HTSA1
+Added Member To Class: ClassName=Halfbridge1 Member=Component DOFF_2A (DOFF_2) BAT165E6327HTSA1
+Added Member To Class: ClassName=PhaseMeasurements3 Member=Component R21C (R21) 10k
